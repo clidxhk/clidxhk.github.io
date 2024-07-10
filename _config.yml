@@ -26,8 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Hong Kong"
-  employer         : "The Hong Kong University 
-                      of Science and Technology"
+  employer         : "The Hong Kong University<br>of Science and Technology"
   uri              : # URL
   email            : "clidx@connect.ust.hk" 
 
@@ -36,7 +35,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=e8jw4mIAAAAJ"
   impactstory      : # URL
   orcid            : "http://orcid.org/0000-0001-7737-7381"
-  semantic         : # URL
+  semantic         : "https://www.semanticscholar.org/author/Chong-Li/2144184155"
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=%28Chong+Li%5BAuthor%5D%29+AND+%28Southern+University+of+Science%5BAffiliation%5D+AND+Technology%5BAffiliation%5D%29&sort=date"
   researchgate     : "https://www.researchgate.net/profile/Chong-Li-54"
   webofscience     : "https://www.webofscience.com/wos/author/record/HHC-0548-2022"
