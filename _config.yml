@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Chong Li"
 title_separator          : "-"
-name                     : &name "Li Chong (李冲)"
+name                     : &name "Chong Li (李冲)"
 description              : &description "personal description"
 url                      : https://clidxhk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
