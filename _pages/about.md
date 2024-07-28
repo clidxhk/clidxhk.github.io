@@ -19,9 +19,12 @@ My ultimate research goals are threefold:
 
 My life motto is:
 
-**"To know what you know and to know what you do not know, that is true knowledge."** ------ Confucius *The Analects*
+Confucius *The Analects*： 
 
-**“知之为知之，不知为不知，是知也”**  ------孔子 *《论语》*
+> **"To know what you know and to know what you do not know, that is true knowledge."** 
+>
+> **“知之为知之，不知为不知，是知也”**
+> 
 
 A data-driven personal website
 ======
