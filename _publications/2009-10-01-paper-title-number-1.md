@@ -1,13 +1,15 @@
 ---
-title: "Paper Title Number 1"
+title: "Enhancing photodynamic inactivation via tunning spatial constraint on photosensitizer"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
+permalink: /publication/2023-10-01-paper-title-number-1
+excerpt: 'The study investigates how spatial constraints in different polymer matrices affect the photophysical behavior and antipathogen performance of a doped photosensitizer, demonstrating significant enhancements in singlet oxygen generation and pathogen elimination in polyurethane nanofibers compared to polyvinylchloride.'
+date: 2023-10-30
+venue: 'Science China Chemistry'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+paperurl: 'https://link.springer.com/article/10.1007/s11426-023-1751-2'
+citation: 'Li, C., Han, M., Gao, J. et al. Enhancing photodynamic inactivation via tunning spatial constraint on photosensitizer. Sci. China Chem. 67, 652–663 (2024). https://doi.org/10.1007/s11426-023-1751-2'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+**Abstract**
+
+The critical factor of spatial constraint, provided by the external confinement (e.g., matrix), is often overlooked during photodynamic inactivation, despite playing a crucial role in determining the molecular photophysical process and subsequent antipathogen performance. Here, as a proof-of-concept model, we employed two types of polymers with varying interaction energies with dopants to investigate the intrinsic relationship between spatial constraint and the essential excited-state behaviors of doped photosensitizer (4-(2-(5-(4-(diphenylamino)phenyl)thiophen-2-yl)ethyl)-1-methylquinolin-1-ium iodine, TPP). Through experimental investigation and theoretical calculations, we found that TPP tends to remain in the excited state for a shorter dwell time under weaker spatial constraints due to less restricted molecular motion in polyurethane (PU) nanofibers. Consequently, the singlet oxygen (1O2) generated from doped-TPP shows a 9.23-fold enhancement in PU than in the polyvinylchloride (PVC) matrix. Under light irradiation, the PU@TPP nanofiber can efficiently eliminate the coronavirus MHV-A59 (⩾99.9997%) at a 220,000-fold higher concentration than the infected space. Its antibacterial efficacy has also been demonstrated, with a killing rate of ⩾99%.
