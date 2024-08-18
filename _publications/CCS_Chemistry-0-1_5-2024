@@ -2,7 +2,7 @@
 title: "Facile Blinking Dyes with Spontaneous Enol-Keto Tautomerism for Super-Resolution Imaging of Subcellular Targets"
 collection: publications
 permalink: /publication/CCS_Chemistry-0-1_5-2024
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+excerpt: '(3th author) '
 date: 2024-03-08
 venue: 'Journal 1'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
@@ -10,4 +10,6 @@ paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+**Abstract**
+
+Fluorophores with controlled on–off switching properties and subcellular targeting abilities are essential for modern super-resolution microscopy techniques. However, the effective design strategies of blinking fluorophores are still limited with scarce building blocks (e.g., rhodamine and cyanine analogues), and sophisticated functionalization is always required for organelle recognition. Therefore, exploring live-cell compatible and organelle-targetable fluorophores with a new blinking mechanism is of broad interest to promote the emerging development of super-resolution microscopy. Here, we report a type of live-cell permeable fluorophore with a facile synthesis strategy to facilitate the imaging of lipid droplets and lysosomes using single-molecule localization microscopy. The fluorophores only require a two-step synthetic route. They show signature enol-keto tautomerism by spontaneous proton transfer at the ground state without additional photoactivation, which ensures blinking performance by exciting the minor portion of molecules in keto form. This fluorescence switching mechanism provides a distinct character from that of previously reported live-cell permeable dyes for super-resolution imaging, while the specific organelle binding affinity can be tuned by simply changing the targeting moiety of fluorophores.
