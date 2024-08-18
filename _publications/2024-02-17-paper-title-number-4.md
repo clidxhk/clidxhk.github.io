@@ -6,7 +6,7 @@ excerpt: '(2nd author) This study explores a novel approach to photodynamic immu
 date: 2021-10-20
 venue: 'Chemical Science'
 paperurl: 'https://doi.org/10.1039/D1SC04124J'
-citation: 'Yang G., Lu S., Li C., et al. Type I macrophage activator photosensitizer against hypoxic tumors You. Chem Sci 12, 14773-14780 (2024).'
+citation: 'Yang G., Lu S., Li C., et al. Type I macrophage activator photosensitizer against hypoxic tumors You. Chem. Sci. 12, 14773-14780 (2024), https://doi.org/10.1039/D1SC04124J.'
 ---
 
 **Abstract**
