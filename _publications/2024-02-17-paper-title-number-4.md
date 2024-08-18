@@ -1,12 +1,16 @@
 ---
-title: "Paper Title Number 4"
+title: "Type I macrophage activator photosensitizer against hypoxic tumors"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
-date: 2024-02-17
-venue: 'GitHub Journal of Bugs'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2024). &quot;Paper Title Number 3.&quot; <i>GitHub Journal of Bugs</i>. 1(3).'
+excerpt: '(2nd author) This study explores a novel approach to photodynamic immunotherapy for treating cancer, addressing the challenges posed by the hypoxic nature and immunosuppressive tumor microenvironment'
+date: 2021-10-20
+venue: 'Chemical Science'
+paperurl: 'https://doi.org/10.1039/D1SC04124J'
+citation: 'Yang G., Lu S., Li C., et al. Type I macrophage activator photosensitizer against hypoxic tumors You. Chem Sci 12, 14773-14780 (2024).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+**Abstract**
+
+Photodynamic immunotherapy has emerged as a promising strategy to treat cancer. However, the hypoxic nature of most solid tumors and notoriously immunosuppressive tumor microenvironment could greatly compromise the efficacy of photodynamic immunotherapy. To address this challenge, we rationally synthesized a type I photosensitizer of TPA-DCR nanoparticles (NPs) with aggregation-enhanced reactive oxygen species generation via an oxygen-independent pathway. We demonstrated that the free radicals produced by TPA-DCR NPs could reprogram M0 and M2 macrophages into an anti-tumor state, which is not restricted by the hypoxic conditions. The activated M1 macrophages could further induce the immunogenic cell death of cancer cells by secreting pro-inflammatory cytokines and phagocytosis. In addition, in vivo anti-tumor experiments revealed that the TPA-DCR NPs could further trigger tumor immune response by re-educating tumor-associated macrophages toward M1 phenotype and promoting T cell infiltration. Overall, this work demonstrates the design of type I organic photosensitizers and mechanistic investigation of their superior anti-tumor efficacy. The results will benefit the exploration of advanced strategies to regulate the tumor microenvironment for effective photodynamic immunotherapy against hypoxic tumors.
+
+![image](https://github.com/user-attachments/assets/810c1d0c-d26a-4b81-b731-a4d4730f70be)
