@@ -6,7 +6,7 @@ excerpt: '(3th author) This study investigates the impact of various environment
 date: 2024-03-08
 venue: 'CCS Chemistry'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
+paperurl: 'https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.024.202303818'
 citation: 'Gao, J., Wu, W., Zhou, L. et al. Facile Blinking Dyes with Spontaneous Enol-Keto Tautomerism for Super-Resolution Imaging of Subcellular Targets. CCS Chemistry 0, 1-5 (2024). https://doi.org/10.31635/ccschem.024.202303818'
 ---
 
