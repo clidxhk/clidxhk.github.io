@@ -5,7 +5,6 @@ permalink: /publication/CCS_Chemistry-0-1_5-2024
 excerpt: '(3th author) This study investigates the impact of various environmental factors on plant growth. By analyzing data from multiple experiments, researchers found that light intensity, soil quality, and water availability significantly influence plant development. The findings suggest that optimizing these factors can enhance agricultural productivity and sustainability.'
 date: 2024-03-08
 venue: 'CCS Chemistry'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'https://www.chinesechemsoc.org/doi/full/10.31635/ccschem.024.202303818'
 citation: 'Gao, J., Wu, W., Zhou, L. et al. Facile Blinking Dyes with Spontaneous Enol-Keto Tautomerism for Super-Resolution Imaging of Subcellular Targets. CCS Chemistry 0, 1-5 (2024). https://doi.org/10.31635/ccschem.024.202303818'
 ---
