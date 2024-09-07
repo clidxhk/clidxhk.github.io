@@ -1,10 +1,11 @@
 ---
-title: "BME 5005 - Nano-Biomedicine"
+title: "BME5005 - Nano-Biomedicine"
 collection: Teaching assistant
 type: "Graduate course"
+position: "Teaching assistant"
 permalink: /teaching/2021-fall-teaching-1
 venue: "Southern University of Science and Technology, Department of Biomedical and Engineering"
-date: 2021-09-01
+time: 2021-09
 location: "Shenzhen, China"
 ---
 
