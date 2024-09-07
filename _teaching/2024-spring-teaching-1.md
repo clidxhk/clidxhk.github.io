@@ -8,4 +8,4 @@ date: 2024-02-01
 location: "Hongkong, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This course was designed and introduced to suit chemistry major students who are enrolling in CHEM 3120 Organic Chemistry II and CHEM 3220 Inorganic Chemistry II, in which it provides students some hands-on experience in organic synthesis and metal complexes formation. Different spectroscopic methods will also be used for characterization of products. The topics of experiments covered in the laboratory course will be related to those taught in the lecture courses.
