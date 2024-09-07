@@ -1,5 +1,5 @@
 ---
-title: "BME5005 Nano-Biomedicine (2021)"
+title: "BME5005 Nano-Biomedicine"
 collection: Teaching assistant
 type: "Graduate course/Teaching assistant"
 permalink: /teaching/2021-fall-teaching-1
