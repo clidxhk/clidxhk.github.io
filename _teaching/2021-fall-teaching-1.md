@@ -4,7 +4,7 @@ collection: Teaching assistant
 type: "Graduate course"
 permalink: /teaching/2021-fall-teaching-1
 venue: "Southern University of Science and Technology, Department of Biomedical and Engineering"
-date: From 2021-09 to 2022-01
+date: From 2021-09
 location: "Shenzhen, China"
 ---
 
