@@ -1,4 +1,3 @@
-
 ---
 title: "SCIE1120 - Chemistry and Life"
 collection: Teaching assistant
