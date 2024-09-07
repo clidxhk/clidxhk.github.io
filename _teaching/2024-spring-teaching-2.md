@@ -4,7 +4,7 @@ collection: Teaching assistant
 type: "Undergraduate course/Teaching assistant"
 permalink: /teaching/2024-spring-teaching-2
 venue: "Hongkong University of Science and Technology, Department of Chemistry"
-time: 2024-02-01
+date: 2024-02-01
 location: "Hongkong, China"
 ---
 
