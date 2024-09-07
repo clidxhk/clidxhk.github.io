@@ -1,5 +1,5 @@
 ---
-title: "CHEM4250 (LA1) - Materials Preparation Laboratory"
+title: "CHEM4250 - Materials Preparation Laboratory"
 collection: Teaching assistant
 type: "Undergraduate Course"
 permalink: /teaching/2024-fall-teaching-1
