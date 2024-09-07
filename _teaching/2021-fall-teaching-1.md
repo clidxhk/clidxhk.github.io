@@ -1,8 +1,8 @@
 ---
-title: "Teaching experience 1"
+title: "Nano-Biomedicine"
 collection: Teaching assistant
 type: "Graduate course"
-permalink: /teaching/2021-Fall-teaching-1
+permalink: /teaching/2021-fall-teaching-1
 venue: "Southern University of Science and Technology, Department of Biomedical and Engineering"
 date: From 2021-09 to 2022-01
 location: "Shenzhen, China"
