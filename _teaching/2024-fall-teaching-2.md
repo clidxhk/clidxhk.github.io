@@ -1,7 +1,7 @@
 ---
 title: "CHEM4250 - Materials Preparation Laboratory"
 collection: Teaching assistant
-type: "Undergraduate Course"
+type: "Undergraduate Course/Teaching assistant"
 permalink: /teaching/2024-fall-teaching-1
 venue: "Hong Kong University of Science and Technology, Department of Chemistry"
 date: 2024-09-01
