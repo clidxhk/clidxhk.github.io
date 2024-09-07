@@ -8,4 +8,4 @@ date: 2021-09-01
 location: "Shenzhen, China"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Understand the basic principles of the application of nanoscience and nanotechnology in biomedicine, and learn about the research progress of new nanobiomaterials in biomedical diagnosis, treatment, intervention, and tissue regeneration and repair.
