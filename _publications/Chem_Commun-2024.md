@@ -2,7 +2,7 @@
 title: "Autologous Exosomes Loaded with a Rationally Designed Photosensitizer for Enhanced Photodynamic Therapy"
 collection: publications
 permalink: /publication/Chem_Commun-2024
-excerpt: '(2th Co-first author† with Qian yuyan†) This study focuses on the development of live-cell permeable fluorophores for super-resolution imaging of subcellular targets.'
+excerpt: '(2th Co-first author† with Qian yuyan†) The work is using the Machine Learning for find efficiently photosensitizers for exo target photodynamic cancer therapy.'
 date: 2024-08-20
 venue: 'Chem Commun'
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2024/cc/d4cc02168a'
