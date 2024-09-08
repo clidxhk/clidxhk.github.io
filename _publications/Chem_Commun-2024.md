@@ -6,7 +6,7 @@ excerpt: '(2th Co-first author† with Qian yuyan†) The work is using the Mach
 date: 2024-08-20
 venue: 'Chem Commun'
 paperurl: 'https://pubs.rsc.org/en/content/articlelanding/2024/cc/d4cc02168a'
-citation: 'Qian Y., Li C., Gaq J. et al., Autologous exosomes loaded with a rationally designed photosensitizer for enhanced photodynamic therapy. Chem Commun Advance. https://doi.org/10.1039/D4CC02168A'
+citation: 'Qian Y., Li C., Gaq J. et al., Autologous exosomes loaded with a rationally designed photosensitizer for enhanced photodynamic therapy. Chem Commun Advance (2024). https://doi.org/10.1039/D4CC02168A'
 ---
 
 **Abstract**
