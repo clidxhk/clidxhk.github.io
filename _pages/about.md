@@ -17,12 +17,15 @@ My ultimate research goals are threefold:
 + To address real-world challenges and meet genuine human needs.
 + To connect the physical world, aiming to construct the ultimate "Gaia" planet.
 
-My life motto is from **Confucius *The Analects*:** 
+My life motto is from **Confucius**:
 
 > **"To know what you know and to know what you do not know, that is true knowledge."** 
 >
 > **“知之为知之，不知为不知，是知也”**
-> 
+>
+
+and **Zhuangzi**:
+
 > **"Heaven and earth were born with me, and all things are one with me."**
 >
 > **"天地与我并生，而万物与我为一"**
