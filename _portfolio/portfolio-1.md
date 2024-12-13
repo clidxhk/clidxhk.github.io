@@ -1,6 +1,6 @@
 ---
 title: "Tang's Group"
-excerpt: "The photo of Tang's Group <br/><img src='/images/Group_Photo_2024_Spring.jpg'>"
+excerpt: "The photo of Tang's Group<br/><img src='/images/Group_Photo_2024_Spring.jpg'>"
 collection: portfolio
 ---
 
