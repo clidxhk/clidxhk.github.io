@@ -23,5 +23,9 @@ My life motto is from **Confucius *The Analects*:**
 >
 > **“知之为知之，不知为不知，是知也”**
 > 
+> **"Heaven and earth were born with me, and all things are one with me."**
+>
+> **"天地与我并生，而万物与我为一"**
+> 
 
 
