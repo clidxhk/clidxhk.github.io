@@ -9,3 +9,6 @@ location: "Hongkong, China"
 ---
 
 This course targets science or engineering students with very little to no chemistry background. It provides a general introduction to basic principles of chemistry. Key topics include state of matters, atoms and elements, molecules and compounds, atomic structures and periodicity, molecular structures, quantities in chemical reactions, bonding theories, acids and bases, and solution chemistry.
+
+Everyone can dowload the PDF to study "Electrons in Atoms and the Periodic Table"
+[CHEM 1008 TA.pdf](https://github.com/user-attachments/files/18384949/CHEM.1008.TA.pdf)
