@@ -32,14 +32,12 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
-Skills
+Research Interests
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Nano-aggregate Science
+* Organic Electronic
+* Data-centric Scientific Research
+* Electronspun Nanofiber
 
 Publications
 ======
