@@ -35,6 +35,11 @@ redirect_from:
     font-weight: 600;
     color: #2c3e50;
   }
+  h2.section-heading {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
   .quote-container {
     margin: 1.5em 0;
     padding: 1em;
@@ -68,8 +73,7 @@ redirect_from:
   .divider {
     margin: 1.5em 0;
     border-top: 2px solid #3a6a8a;
-  }
-  
+  }  
   body {
     background-color: #f0f8ff;
     background-attachment: fixed;
