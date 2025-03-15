@@ -7,11 +7,11 @@ author_profile: true
 
 <style>
   .publications-container {
-    margin: 1.5em 0;
-    padding: 1em;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    background-color: #f9f9f9;
+    margin: 2.5em 0;
+    padding: 1.8em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background-color: rgba(255,255,255,0.9);
   }
   .section-heading {
     border-bottom: 2px solid #3a6a8a;
@@ -19,35 +19,53 @@ author_profile: true
     margin-top: 0;
     margin-bottom: 1em;
     font-size: 1.5em;
-    color: #333;
+    color: #2c3e50;
   }
   .pub-item {
-    margin: 0.8em 0;
-    padding: 0.8em;
-    border-left: 3px solid #546e7a;
-    background-color: #fafafa;
+    margin: 1.2em 0;
+    padding: 1em;
+    border-left: 4px solid #546e7a;
+    background-color: rgba(250,250,250,0.95);
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .pub-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   .scholar-link {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
     font-size: 0.95em;
-    padding: 0.8em;
-    background-color: #f0f0f0;
-    border-radius: 3px;
+    padding: 1em;
+    background-color: rgba(240,240,240,0.7);
+    border-radius: 6px;
+    border-left: 3px solid #4b6584;
   }
   .scholar-link a {
     font-weight: 600;
     text-decoration: underline;
     color: #34495e;
+    transition: color 0.2s;
+  }
+  .scholar-link a:hover {
+    color: #3a6a8a;
   }
   .divider {
-    margin: 1em 0;
+    margin: 1.5em 0;
     border-top: 1px solid #ddd;
   }
   .year-heading {
-    margin-top: 1.2em;
-    margin-bottom: 0.7em;
-    font-size: 1.5em;
-    color: #333;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-size: 1.4em;
+    color: #2c3e50;
+    padding-left: 0.5em;
+    border-left: 3px solid #4b6584;
+  }
+  body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    background-attachment: fixed;
   }
 </style>
 
