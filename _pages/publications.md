@@ -7,8 +7,8 @@ author_profile: true
 
 <style>
   .publications-container {
-    margin: 2.5em 0;
-    padding: 1.8em;
+    margin: 2em 0;
+    padding: 1.5em;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     background-color: #f9f9f9;
@@ -22,14 +22,17 @@ author_profile: true
     color: #333;
   }
   .pub-item {
-    margin: 1.5em 0;
-    padding: 1.2em;
+    margin: 0.8em 0;
+    padding: 0.8em;
     border-left: 3px solid #546e7a;
     background-color: #fafafa;
   }
   .scholar-link {
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     font-size: 0.95em;
+    padding: 0.8em;
+    background-color: #f0f0f0;
+    border-radius: 3px;
   }
   .scholar-link a {
     font-weight: 600;
@@ -37,23 +40,25 @@ author_profile: true
     color: #34495e;
   }
   .divider {
-    margin: 1.5em 0;
+    margin: 1em 0;
     border-top: 1px solid #ddd;
   }
   .year-heading {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
+    margin-top: 1.2em;
+    margin-bottom: 0.7em;
     font-size: 1.5em;
     color: #333;
   }
 </style>
 
 <div class="publications-container">
-  <h2 class="section-heading">Research Articles</h2>
-  
   {% if site.author.googlescholar %}
-    <p class="scholar-link">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
+    <div class="scholar-link">
+      You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+    </div>
   {% endif %}
+
+  <h2 class="section-heading">Research Articles</h2>
   
   <div class="divider"></div>
   
