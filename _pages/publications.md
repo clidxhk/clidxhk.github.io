@@ -11,7 +11,13 @@ author_profile: true
     padding: 1.8em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 4px solid #3a6a8a;
     background-color: rgba(255,255,255,0.9);
+  }
+  .publications-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
   .section-heading {
     border-bottom: 2px solid #3a6a8a;
@@ -24,10 +30,10 @@ author_profile: true
   .pub-item {
     margin: 1.2em 0;
     padding: 1em;
-    border-left: 4px solid #546e7a;
-    background-color: rgba(250,250,250,0.95);
+    border-left: 3px solid #546e7a;
+    background-color: rgba(250,250,250,0.9);
     border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
   }
   .pub-item:hover {
@@ -38,9 +44,10 @@ author_profile: true
     margin-bottom: 1.5em;
     font-size: 0.95em;
     padding: 1em;
-    background-color: rgba(240,240,240,0.7);
-    border-radius: 6px;
-    border-left: 3px solid #4b6584;
+    background-color: rgba(250,250,250,0.9);
+    border-radius: 4px;
+    border-left: 3px solid #546e7a;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
   .scholar-link a {
     font-weight: 600;
@@ -61,7 +68,7 @@ author_profile: true
     font-size: 1.4em;
     color: #2c3e50;
     padding-left: 0.5em;
-    border-left: 3px solid #4b6584;
+    border-left: 3px solid #3a6a8a;
   }
   body {
     background-color: #f0f8ff;
