@@ -65,6 +65,11 @@ redirect_from:
     position: absolute;
     left: -1em;
   }
+  .divider {
+    margin: 1.5em 0;
+    border-top: 2px solid #3a6a8a;
+  }
+  
   body {
     background-color: #f0f8ff;
     background-attachment: fixed;
@@ -76,6 +81,8 @@ redirect_from:
 
 <div class="academic-section">
   <h2 class="section-heading">Education & Research</h2>
+
+  <div class="divider"></div>
   
   <p>I am currently a Ph.D. student in the Department of Chemistry at the <span class="highlight">Hong Kong University of Science and Technology</span>. I completed both my Bachelor's and Master's degrees at the <span class="highlight">Southern University of Science and Technology</span>.</p>
   
