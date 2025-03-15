@@ -7,6 +7,71 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .teaching-container {
+    margin: 2.5em 0;
+    padding: 1.8em;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+  }
+  .section-heading {
+    border-bottom: 2px solid #3a6a8a;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+  }
+  .teaching-intro {
+    margin-bottom: 1.5em;
+    line-height: 1.6;
+    color: #444;
+  }
+  .course-item {
+    margin: 1.5em 0;
+    padding: 1.2em;
+    background-color: #fafafa;
+    border-left: 3px solid #546e7a;
+  }
+  .no-courses {
+    font-style: italic;
+    color: #666;
+    padding: 1em;
+    background-color: #f3f3f3;
+    border-left: 3px solid #ccc;
+  }
+  .teaching-philosophy {
+    margin-top: 2em;
+    padding-top: 1.5em;
+    border-top: 1px solid #ddd;
+  }
+</style>
+
+<div class="teaching-container">
+  <h2 class="section-heading">Teaching Experience</h2>
+  
+  <div class="teaching-intro">
+    <p>I believe that education is not just about transferring knowledge but also about inspiring curiosity and critical thinking. Below you can find information about courses I have taught or assisted with.</p>
+  </div>
+
+  {% assign course_count = site.teaching | size %}
+  {% if course_count > 0 %}
+    {% for post in site.teaching reversed %}
+      <div class="course-item">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
+  {% else %}
+    <div class="no-courses">
+      <p>Currently updating my teaching portfolio. Please check back soon for information about my teaching experience and courses.</p>
+    </div>
+  {% endif %}
+
+  <div class="teaching-philosophy">
+    <h3 class="section-heading" style="font-size: 1.3em;">Teaching Philosophy</h3>
+    <p>My approach to teaching combines theoretical foundations with practical applications, emphasizing the importance of hands-on experience. I strive to create an inclusive learning environment where students feel comfortable asking questions and engaging in discussions.</p>
+    
+    <p>I encourage students to not only master the material but also to understand its broader implications and applications in real-world scenarios. My goal is to equip students with both the knowledge and critical thinking skills they need to succeed in their academic and professional careers.</p>
+  </div>
+</div>
