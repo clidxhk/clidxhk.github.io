@@ -26,11 +26,6 @@ author_profile: true
     font-size: 1.5em;
     color: #2c3e50;
   }
-  h2.section-heading {
-  border-bottom: none !important;
-  padding-bottom: 0 !important;
-  margin-bottom: 0 !important;
-  }
   .pub-item {
     margin: 1.2em 0;
     padding: 1em;
@@ -88,9 +83,7 @@ author_profile: true
   {% endif %}
 
   <h2 class="section-heading">Research Articles</h2>
-  
-  <div class="divider"></div>
-  
+    
   {% include base_path %}
   
   {% assign publications_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" %}
