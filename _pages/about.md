@@ -15,8 +15,6 @@ redirect_from:
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow 0.2s;
     border-left: 4px solid;
-    max-width: 125%;
-    width: 125%;
   }
   .academic-section:hover {
     transform: translateY(-3px);
@@ -64,8 +62,11 @@ redirect_from:
     left: -1em;
   }
   body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    background: linear-gradient(135deg, #e6f7ff 0%, #f0f5fa 50%, #eef2f7 100%);
     background-attachment: fixed;
+  }
+  .page__content {
+    background-color: transparent;
   }
 </style>
 
