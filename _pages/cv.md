@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,54 +9,37 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Chemistry, Hongkong University of Science and Technology, 2023-2027 (expected)
-* M.S. in Chemistry, Southern University of Science and Technology, 2020-2023
-* B.S. in Materials Science and Engineering, Southern University of Science and Technology, 2016-2020
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- **Ph.D. in Chemistry** | Hong Kong University of Science and Technology | 2023-2027 (expected)
+- **M.S. in Chemistry** | Southern University of Science and Technology | 2020-2023
+- **B.S. in Materials Science and Engineering** | Southern University of Science and Technology | 2016-2020
+  
+## Research Interests
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+- **Nano-aggregate Science**: Study of nanoscale structures and their properties
+- **Organic Electronics**: Investigation of electronic properties in organic materials
+- **Data-centric Scientific Research**: Application of data-driven approaches to scientific problems
+- **Electrospun Nanofibers**: Development and application of nanofibers produced via electrospinning
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Research Interests
-======
-* Nano-aggregate Science
-* Organic Electronic
-* Data-centric Scientific Research
-* Electronspun Nanofiber
+## Publications
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+## Talks
+
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Teaching
+
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Service and Leadership
+
+- Currently active in 43 different Slack teams, facilitating academic communication and collaboration
