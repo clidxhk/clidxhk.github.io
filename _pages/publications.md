@@ -64,7 +64,7 @@ author_profile: true
     border-left: 3px solid #4b6584;
   }
   body {
-    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    background-color: #f0f8ff;
     background-attachment: fixed;
   }
 </style>
