@@ -1,22 +1,29 @@
 # main links links
 main:
-  - title: "Publications"
+  - title: "Research"
     url: /publications/
+    icon: "fas fa-file-alt"
 
-  - title: "Talks"
+  - title: "Talk"
     url: /talks/    
+    icon: "fas fa-chalkboard-teacher"
 
   - title: "Teaching"
     url: /teaching/    
+    icon: "fas fa-graduation-cap"
     
   - title: "Portfolio"
     url: /portfolio/
+    icon: "fas fa-project-diagram"
         
-  - title: "Blog Posts"
+  - title: "Blog"
     url: /year-archive/
+    icon: "fas fa-pen-fancy"
     
   - title: "CV"
     url: /cv/
+    icon: "fas fa-id-card"
     
-  - title: "Guide"
+  - title: "Resources"
     url: /markdown/
+    icon: "fas fa-book"
