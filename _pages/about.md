@@ -15,6 +15,8 @@ redirect_from:
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow 0.2s;
     border-left: 4px solid;
+    max-width: 125%;
+    width: 125%;
   }
   .academic-section:hover {
     transform: translateY(-3px);
@@ -62,7 +64,7 @@ redirect_from:
     left: -1em;
   }
   body {
-    background: linear-gradient(135deg, #e6f7ff 0%, #f0f5fa 50%, #eef2f7 100%);
+    background-color: #e6f7ff;
     background-attachment: fixed;
   }
   .page__content {
@@ -70,7 +72,7 @@ redirect_from:
   }
 </style>
 
-<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #3a6a8a;">
+<div class="academic-section" style="background-color: #f9f9f9;">
   <h2 class="section-heading" style="border-color: #3a6a8a;">Education & Research</h2>
   
   <p>I am currently a Ph.D. student in the Department of Chemistry at the <span class="highlight">Hong Kong University of Science and Technology</span>. I completed both my Bachelor's and Master's degrees at the <span class="highlight">Southern University of Science and Technology</span>.</p>
@@ -83,13 +85,13 @@ redirect_from:
   </ul>
 </div>
 
-<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #4b6584;">
+<div class="academic-section" style="background-color: #f9f9f9;">
   <h2 class="section-heading" style="border-color: #4b6584;">Vision & Direction</h2>
   
   <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">data-driven molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
 </div>
 
-<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #546e7a;">
+<div class="academic-section" style="background-color: #f9f9f9;">
   <h2 class="section-heading" style="border-color: #546e7a;">Research Philosophy</h2>
   
   <p>My ultimate research goals are threefold:</p>
@@ -101,7 +103,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #607d8b;">
+<div class="academic-section" style="background-color: #f9f9f9;">
   <h2 class="section-heading" style="border-color: #607d8b;">Personal Philosophy</h2>
   
   <p>My life is guided by the wisdom of ancient philosophers:</p>
