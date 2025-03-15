@@ -26,7 +26,7 @@ My life motto is from **Confucius**:
 
 and **Zhuangzi**:
 
-> **"Heaven and earth were born with me, and all things are one with me."**
+> **"Heaven, Earth, and I were produced together, and all things and I are one"**
 >
 > **"天地与我并生，而万物与我为一"**
 > 
