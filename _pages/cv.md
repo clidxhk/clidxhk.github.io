@@ -10,15 +10,12 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  .cv-container {
+  .cv-section {
     margin: 2.5em 0;
     padding: 1.8em;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     background-color: #f9f9f9;
-  }
-  .cv-section {
-    margin-bottom: 2em;
   }
   .section-heading {
     border-bottom: 2px solid #3a6a8a;
@@ -67,90 +64,88 @@ redirect_from:
   }
 </style>
 
-<div class="cv-container">
-  <div class="cv-section">
-    <h2 class="section-heading">Education</h2>
-    
-    <div class="cv-item">
-      <span class="cv-degree">Ph.D. in Chemistry</span> | 
-      <span class="cv-institution">Hong Kong University of Science and Technology</span> | 
-      <span class="cv-date">2023-2027 (expected)</span>
-    </div>
-    
-    <div class="cv-item">
-      <span class="cv-degree">M.S. in Chemistry</span> | 
-      <span class="cv-institution">Southern University of Science and Technology</span> | 
-      <span class="cv-date">2020-2023</span>
-    </div>
-    
-    <div class="cv-item">
-      <span class="cv-degree">B.S. in Materials Science and Engineering</span> | 
-      <span class="cv-institution">Southern University of Science and Technology</span> | 
-      <span class="cv-date">2016-2020</span>
-    </div>
+<div class="cv-section">
+  <h2 class="section-heading">Education</h2>
+  
+  <div class="cv-item">
+    <span class="cv-degree">Ph.D. in Chemistry</span> | 
+    <span class="cv-institution">Hong Kong University of Science and Technology</span> | 
+    <span class="cv-date">2023-2027 (expected)</span>
   </div>
   
-  <div class="cv-section">
-    <h2 class="section-heading">Research Interests</h2>
-    
-    <div class="cv-item">
-      <span class="research-area">Nano-aggregate Science</span>: Study of nanoscale structures and their properties
-    </div>
-    
-    <div class="cv-item">
-      <span class="research-area">Organic Electronics</span>: Investigation of electronic properties in organic materials
-    </div>
-    
-    <div class="cv-item">
-      <span class="research-area">Data-centric Scientific Research</span>: Application of data-driven approaches to scientific problems
-    </div>
-    
-    <div class="cv-item">
-      <span class="research-area">Electrospun Nanofibers</span>: Development and application of nanofibers produced via electrospinning
-    </div>
+  <div class="cv-item">
+    <span class="cv-degree">M.S. in Chemistry</span> | 
+    <span class="cv-institution">Southern University of Science and Technology</span> | 
+    <span class="cv-date">2020-2023</span>
   </div>
   
-  <div class="cv-section">
-    <h2 class="section-heading">Publications</h2>
-    
-    <div class="cv-list-container">
-      <ul>
-        {% for post in site.publications reversed %}
-          {% include archive-single-cv.html %}
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="cv-item">
+    <span class="cv-degree">B.S. in Materials Science and Engineering</span> | 
+    <span class="cv-institution">Southern University of Science and Technology</span> | 
+    <span class="cv-date">2016-2020</span>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2 class="section-heading">Research Interests</h2>
+  
+  <div class="cv-item">
+    <span class="research-area">Nano-aggregate Science</span>: Study of nanoscale structures and their properties
   </div>
   
-  <div class="cv-section">
-    <h2 class="section-heading">Talks</h2>
-    
-    <div class="cv-list-container">
-      <ul>
-        {% for post in site.talks reversed %}
-          {% include archive-single-talk-cv.html %}
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="cv-item">
+    <span class="research-area">Organic Electronics</span>: Investigation of electronic properties in organic materials
   </div>
   
-  <div class="cv-section">
-    <h2 class="section-heading">Teaching</h2>
-    
-    <div class="cv-list-container">
-      <ul>
-        {% for post in site.teaching reversed %}
-          {% include archive-single-cv.html %}
-        {% endfor %}
-      </ul>
-    </div>
+  <div class="cv-item">
+    <span class="research-area">Data-centric Scientific Research</span>: Application of data-driven approaches to scientific problems
   </div>
   
-  <div class="cv-section">
-    <h2 class="section-heading">Service and Leadership</h2>
-    
-    <div class="cv-item">
-      Currently active in 43 different Slack teams, facilitating academic communication and collaboration
-    </div>
+  <div class="cv-item">
+    <span class="research-area">Electrospun Nanofibers</span>: Development and application of nanofibers produced via electrospinning
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2 class="section-heading">Publications</h2>
+  
+  <div class="cv-list-container">
+    <ul>
+      {% for post in site.publications reversed %}
+        {% include archive-single-cv.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2 class="section-heading">Talks</h2>
+  
+  <div class="cv-list-container">
+    <ul>
+      {% for post in site.talks reversed %}
+        {% include archive-single-talk-cv.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2 class="section-heading">Teaching</h2>
+  
+  <div class="cv-list-container">
+    <ul>
+      {% for post in site.teaching reversed %}
+        {% include archive-single-cv.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2 class="section-heading">Service and Leadership</h2>
+  
+  <div class="cv-item">
+    Currently active in 43 different Slack teams, facilitating academic communication and collaboration
   </div>
 </div>
