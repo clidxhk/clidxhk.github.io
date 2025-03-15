@@ -85,7 +85,7 @@ redirect_from:
 
 <div class="academic-section">
   <h2 class="section-heading">Education & Research</h2>
-  
+  <div class="divider"></div>
   <p>I am currently a Ph.D. student in the Department of Chemistry at the <span class="highlight">Hong Kong University of Science and Technology</span>. I completed both my Bachelor's and Master's degrees at the <span class="highlight">Southern University of Science and Technology</span>.</p>
   
   <p>My recent research focuses on photochemistry and its applications in the biomedical field. My key interests include:</p>
@@ -98,13 +98,13 @@ redirect_from:
 
 <div class="academic-section">
   <h2 class="section-heading">Vision & Direction</h2>
-  
+  <div class="divider"></div>
   <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">data-driven molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
 </div>
 
 <div class="academic-section">
   <h2 class="section-heading">Research Philosophy</h2>
-  
+  <div class="divider"></div>
   <p>My ultimate research goals are threefold:</p>
   
   <ul class="research-list">
@@ -116,7 +116,7 @@ redirect_from:
 
 <div class="academic-section">
   <h2 class="section-heading">Personal Philosophy</h2>
-  
+  <div class="divider"></div>
   <p>My life is guided by the wisdom of ancient philosophers:</p>
   
   <div class="quote-container">
