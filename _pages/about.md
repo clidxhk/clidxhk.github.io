@@ -14,20 +14,22 @@ redirect_from:
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow 0.2s;
-    border-left: 4px solid;
+    border-left: 4px solid #3a6a8a;
     max-width: 125%;
     width: 125%;
+    background-color: rgba(255,255,255,0.9);
   }
   .academic-section:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
   .section-heading {
-    border-bottom: 2px solid;
+    border-bottom: 2px solid #3a6a8a;
     padding-bottom: 0.5em;
     margin-top: 0;
     margin-bottom: 1em;
     font-size: 1.5em;
+    color: #2c3e50;
   }
   .highlight {
     font-weight: 600;
@@ -35,11 +37,11 @@ redirect_from:
   }
   .quote-container {
     margin: 1.5em 0;
-    padding-left: 1em;
-    border-left: 3px solid;
-    background-color: rgba(255,255,255,0.7);
     padding: 1em;
     border-radius: 4px;
+    border-left: 3px solid #546e7a;
+    background-color: rgba(250,250,250,0.9);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
   .quote-text {
     font-style: italic;
@@ -64,7 +66,7 @@ redirect_from:
     left: -1em;
   }
   body {
-    background-color: #f0f8ff;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
     background-attachment: fixed;
   }
   .page__content {
@@ -72,27 +74,27 @@ redirect_from:
   }
 </style>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
-  <h2 class="section-heading" style="border-color: #3a6a8a;">Education & Research</h2>
+<div class="academic-section">
+  <h2 class="section-heading">Education & Research</h2>
   
   <p>I am currently a Ph.D. student in the Department of Chemistry at the <span class="highlight">Hong Kong University of Science and Technology</span>. I completed both my Bachelor's and Master's degrees at the <span class="highlight">Southern University of Science and Technology</span>.</p>
   
   <p>My recent research focuses on photochemistry and its applications in the biomedical field. My key interests include:</p>
   <ul class="research-list">
-    <li>Quantitative aggregate science</li>
-    <li>Remote-electronic phototherapy</li>
-    <li>Molecular excited-state</li>
+    <li>Advanced imaging technologies</li>
+    <li>Remote phototherapy</li>
+    <li>Excited-state molecules</li>
   </ul>
 </div>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
-  <h2 class="section-heading" style="border-color: #4b6584;">Vision & Direction</h2>
+<div class="academic-section">
+  <h2 class="section-heading">Vision & Direction</h2>
   
-  <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">Data-enabled molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
+  <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">data-driven molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
 </div>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
-  <h2 class="section-heading" style="border-color: #546e7a;">Research Philosophy</h2>
+<div class="academic-section">
+  <h2 class="section-heading">Research Philosophy</h2>
   
   <p>My ultimate research goals are threefold:</p>
   
@@ -103,18 +105,18 @@ redirect_from:
   </ul>
 </div>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
-  <h2 class="section-heading" style="border-color: #607d8b;">Personal Philosophy</h2>
+<div class="academic-section">
+  <h2 class="section-heading">Personal Philosophy</h2>
   
   <p>My life is guided by the wisdom of ancient philosophers:</p>
   
-  <div class="quote-container" style="border-color: #34495e;">
+  <div class="quote-container">
     <p><strong>Confucius</strong></p>
     <p class="quote-text">"To know what you know and to know what you do not know, that is true knowledge."</p>
     <p class="quote-chinese quote-text">"知之为知之，不知为不知，是知也"</p>
   </div>
   
-  <div class="quote-container" style="border-color: #34495e;">
+  <div class="quote-container">
     <p><strong>Zhuangzi</strong></p>
     <p class="quote-text">"Heaven, Earth, and I were produced together, and all things and I are one"</p>
     <p class="quote-chinese quote-text">"天地与我并生，而万物与我为一"</p>
