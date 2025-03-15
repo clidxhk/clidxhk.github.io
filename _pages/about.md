@@ -64,7 +64,7 @@ redirect_from:
     left: -1em;
   }
   body {
-    background-color: #f0f8ff;
+    background-color: #e6f7ff;
     background-attachment: fixed;
   }
   .page__content {
