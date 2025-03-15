@@ -12,13 +12,13 @@ redirect_from:
 I am currently a Ph.D. student in the Department of Chemistry at the **Hong Kong University of Science and Technology**. I completed both my Bachelor's and Master's degrees at the **Southern University of Science and Technology**.
 
 My recent research focuses on photochemistry and its applications in the biomedical field. My key interests include:
-- Advanced imaging technologies
-- Remote phototherapy
+- Remote-electronic phototherapy
+- Quantitative research aggregate science
 - Excited-state molecules
-
+  
 ## Vision & Direction
 
-In my ongoing research, I am dedicated to leveraging **data-driven molecular engineering** to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.
+In my ongoing research, I am dedicated to leveraging **Data-enabled aggregate science** to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.
 
 ## Research Philosophy
 
