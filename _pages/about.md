@@ -24,7 +24,7 @@ redirect_from:
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
   .section-heading {
-    border-bottom: 2px solid #3a6a8a;
+    border-bottom: 5px solid #3a6a8a;
     padding-bottom: 0.5em;
     margin-top: 0;
     margin-bottom: 1em;
