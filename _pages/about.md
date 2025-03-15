@@ -11,8 +11,14 @@ redirect_from:
   .academic-section {
     margin: 2.5em 0;
     padding: 1.8em;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 4px solid;
+  }
+  .academic-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
   .section-heading {
     border-bottom: 2px solid;
@@ -23,11 +29,15 @@ redirect_from:
   }
   .highlight {
     font-weight: 600;
+    color: #2c3e50;
   }
   .quote-container {
     margin: 1.5em 0;
     padding-left: 1em;
     border-left: 3px solid;
+    background-color: rgba(255,255,255,0.7);
+    padding: 1em;
+    border-radius: 4px;
   }
   .quote-text {
     font-style: italic;
@@ -42,10 +52,22 @@ redirect_from:
   }
   .research-list li {
     margin-bottom: 0.5em;
+    position: relative;
+  }
+  .research-list li:before {
+    content: "•";
+    color: #3a6a8a;
+    font-weight: bold;
+    position: absolute;
+    left: -1em;
+  }
+  body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    background-attachment: fixed;
   }
 </style>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
+<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #3a6a8a;">
   <h2 class="section-heading" style="border-color: #3a6a8a;">Education & Research</h2>
   
   <p>I am currently a Ph.D. student in the Department of Chemistry at the <span class="highlight">Hong Kong University of Science and Technology</span>. I completed both my Bachelor's and Master's degrees at the <span class="highlight">Southern University of Science and Technology</span>.</p>
@@ -58,13 +80,13 @@ redirect_from:
   </ul>
 </div>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
+<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #4b6584;">
   <h2 class="section-heading" style="border-color: #4b6584;">Vision & Direction</h2>
   
   <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">data-driven molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
 </div>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
+<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #546e7a;">
   <h2 class="section-heading" style="border-color: #546e7a;">Research Philosophy</h2>
   
   <p>My ultimate research goals are threefold:</p>
@@ -76,7 +98,7 @@ redirect_from:
   </ul>
 </div>
 
-<div class="academic-section" style="background-color: #f9f9f9;">
+<div class="academic-section" style="background-color: rgba(255,255,255,0.9); border-color: #607d8b;">
   <h2 class="section-heading" style="border-color: #607d8b;">Personal Philosophy</h2>
   
   <p>My life is guided by the wisdom of ancient philosophers:</p>
