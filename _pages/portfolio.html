@@ -5,10 +5,69 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  /* 添加淡蓝色背景 */
+  body {
+    background-color: #e6f7ff;
+    background-attachment: fixed;
+  }
+  
+  /* 使内容区域透明，以显示背景色 */
+  .page__content {
+    background-color: transparent;
+  }
+  
+  /* 为portfolio项目添加样式 */
+  .archive__item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+    border-left: 4px solid #3a6a8a;
+  }
+  
+  .archive__item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  }
+  
+  /* 优化图片显示 */
+  .archive__item-teaser {
+    position: relative;
+    overflow: hidden;
+    max-height: 200px;
+  }
+  
+  .archive__item-teaser img {
+    width: 100%;
+    transition: transform 0.3s;
+  }
+  
+  .archive__item:hover .archive__item-teaser img {
+    transform: scale(1.05);
+  }
+  
+  /* 文字内容区域样式 */
+  .archive__item-body {
+    padding: 1.2em;
+  }
+  
+  .archive__item-title {
+    margin-top: 0.5em;
+    border-bottom: 2px solid #4b6584;
+    padding-bottom: 0.5em;
+  }
+  
+  .archive__item-excerpt {
+    margin-top: 0.8em;
+    color: #333;
+  }
+</style>
 
+{% include base_path %}
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
 {% endfor %}
-
