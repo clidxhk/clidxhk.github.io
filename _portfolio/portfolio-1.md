@@ -1,5 +1,5 @@
 ---
-title: "Tang's Group"
+title: "2024 Spring HKUST Tang's Group"
 excerpt: "The photo of Tang's Group 2024 Spring<br/><img src='/images/Group_Photo_2024_Spring.jpg'>"
 collection: portfolio
 ---
