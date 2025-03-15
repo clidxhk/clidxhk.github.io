@@ -13,9 +13,15 @@ redirect_from:
   .cv-section {
     margin: 2.5em 0;
     padding: 1.8em;
-    border-radius: 4px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background-color: rgba(255,255,255,0.9);
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-left: 4px solid #3a6a8a;
+  }
+  .cv-section:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
   .section-heading {
     border-bottom: 2px solid #3a6a8a;
@@ -23,44 +29,54 @@ redirect_from:
     margin-top: 0;
     margin-bottom: 1em;
     font-size: 1.5em;
-    color: #333;
+    color: #2c3e50;
   }
   .cv-item {
-    margin-bottom: 1em;
-    padding-left: 1em;
+    margin-bottom: 1.2em;
+    padding-left: 1.2em;
     position: relative;
+    line-height: 1.5;
   }
   .cv-item::before {
     content: "";
     position: absolute;
     left: 0;
     top: 0.5em;
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     background-color: #546e7a;
     border-radius: 50%;
   }
   .cv-degree {
     font-weight: bold;
-    color: #333;
+    color: #2c3e50;
   }
   .cv-institution {
     font-style: italic;
-    color: #555;
+    color: #34495e;
   }
   .cv-date {
-    color: #666;
+    color: #7f8c8d;
     font-size: 0.95em;
   }
   .research-area {
-    font-weight: bold;
-    color: #333;
+    font-weight: 600;
+    color: #2c3e50;
   }
   .cv-list-container {
-    background-color: #fafafa;
-    padding: 1em;
+    background-color: rgba(250,250,250,0.9);
+    padding: 1.2em;
     border-left: 3px solid #546e7a;
     margin: 1em 0;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  .cv-list-container ul {
+    margin-bottom: 0;
+  }
+  body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    background-attachment: fixed;
   }
 </style>
 
