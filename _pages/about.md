@@ -79,16 +79,16 @@ redirect_from:
   
   <p>My recent research focuses on photochemistry and its applications in the biomedical field. My key interests include:</p>
   <ul class="research-list">
-    <li>Advanced imaging technologies</li>
-    <li>Remote phototherapy</li>
-    <li>Excited-state molecules</li>
+    <li>Quantitative aggregate science</li>
+    <li>Remote-electronic phototherapy</li>
+    <li>Molecular excited-state</li>
   </ul>
 </div>
 
 <div class="academic-section" style="background-color: #f9f9f9;">
   <h2 class="section-heading" style="border-color: #4b6584;">Vision & Direction</h2>
   
-  <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">data-driven molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
+  <p>In my ongoing research, I am dedicated to leveraging <span class="highlight">Data-enabled molecular engineering</span> to accelerate advancements in biomedicine while exploring the potential of artificial intelligence in chemistry and biomedical sciences.</p>
 </div>
 
 <div class="academic-section" style="background-color: #f9f9f9;">
