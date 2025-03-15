@@ -40,6 +40,12 @@ author_profile: true
     margin: 1.5em 0;
     border-top: 1px solid #ddd;
   }
+  .year-heading {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+  }
 </style>
 
 <div class="publications-container">
@@ -53,9 +59,15 @@ author_profile: true
   
   {% include base_path %}
   
-  {% for post in site.publications reversed %}
-    <div class="pub-item">
-      {% include archive-single.html %}
-    </div>
+  {% assign publications_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% assign sorted_years = publications_by_year | sort: "name" | reverse %}
+  
+  {% for year_group in sorted_years %}
+    <h3 class="year-heading">{{ year_group.name }}</h3>
+    {% for post in year_group.items %}
+      <div class="pub-item">
+        {% include archive-single.html %}
+      </div>
+    {% endfor %}
   {% endfor %}
 </div>
