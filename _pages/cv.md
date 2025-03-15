@@ -9,37 +9,148 @@ redirect_from:
 
 {% include base_path %}
 
-## Education
+<style>
+  .cv-container {
+    margin: 2.5em 0;
+    padding: 1.8em;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+  }
+  .cv-section {
+    margin-bottom: 2em;
+  }
+  .section-heading {
+    border-bottom: 2px solid #3a6a8a;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+  }
+  .cv-item {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    position: relative;
+  }
+  .cv-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.5em;
+    width: 6px;
+    height: 6px;
+    background-color: #546e7a;
+    border-radius: 50%;
+  }
+  .cv-degree {
+    font-weight: bold;
+    color: #333;
+  }
+  .cv-institution {
+    font-style: italic;
+    color: #555;
+  }
+  .cv-date {
+    color: #666;
+    font-size: 0.95em;
+  }
+  .research-area {
+    font-weight: bold;
+    color: #333;
+  }
+  .cv-list-container {
+    background-color: #fafafa;
+    padding: 1em;
+    border-left: 3px solid #546e7a;
+    margin: 1em 0;
+  }
+</style>
 
-- **Ph.D. in Chemistry** | Hong Kong University of Science and Technology | 2023-2027 (expected)
-- **M.S. in Chemistry** | Southern University of Science and Technology | 2020-2023
-- **B.S. in Materials Science and Engineering** | Southern University of Science and Technology | 2016-2020
+<div class="cv-container">
+  <div class="cv-section">
+    <h2 class="section-heading">Education</h2>
+    
+    <div class="cv-item">
+      <span class="cv-degree">Ph.D. in Chemistry</span> | 
+      <span class="cv-institution">Hong Kong University of Science and Technology</span> | 
+      <span class="cv-date">2023-2027 (expected)</span>
+    </div>
+    
+    <div class="cv-item">
+      <span class="cv-degree">M.S. in Chemistry</span> | 
+      <span class="cv-institution">Southern University of Science and Technology</span> | 
+      <span class="cv-date">2020-2023</span>
+    </div>
+    
+    <div class="cv-item">
+      <span class="cv-degree">B.S. in Materials Science and Engineering</span> | 
+      <span class="cv-institution">Southern University of Science and Technology</span> | 
+      <span class="cv-date">2016-2020</span>
+    </div>
+  </div>
   
-## Research Interests
-
-- **Nano-aggregate Science**: Study of nanoscale structures and their properties
-- **Organic Electronics**: Investigation of electronic properties in organic materials
-- **Data-centric Scientific Research**: Application of data-driven approaches to scientific problems
-- **Electrospun Nanofibers**: Development and application of nanofibers produced via electrospinning
-
-## Publications
-
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+  <div class="cv-section">
+    <h2 class="section-heading">Research Interests</h2>
+    
+    <div class="cv-item">
+      <span class="research-area">Nano-aggregate Science</span>: Study of nanoscale structures and their properties
+    </div>
+    
+    <div class="cv-item">
+      <span class="research-area">Organic Electronics</span>: Investigation of electronic properties in organic materials
+    </div>
+    
+    <div class="cv-item">
+      <span class="research-area">Data-centric Scientific Research</span>: Application of data-driven approaches to scientific problems
+    </div>
+    
+    <div class="cv-item">
+      <span class="research-area">Electrospun Nanofibers</span>: Development and application of nanofibers produced via electrospinning
+    </div>
+  </div>
   
-## Talks
-
-<ul>{% for post in site.talks reversed %}
-  {% include archive-single-talk-cv.html %}
-{% endfor %}</ul>
+  <div class="cv-section">
+    <h2 class="section-heading">Publications</h2>
+    
+    <div class="cv-list-container">
+      <ul>
+        {% for post in site.publications reversed %}
+          {% include archive-single-cv.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   
-## Teaching
-
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+  <div class="cv-section">
+    <h2 class="section-heading">Talks</h2>
+    
+    <div class="cv-list-container">
+      <ul>
+        {% for post in site.talks reversed %}
+          {% include archive-single-talk-cv.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   
-## Service and Leadership
-
-- Currently active in 43 different Slack teams, facilitating academic communication and collaboration
+  <div class="cv-section">
+    <h2 class="section-heading">Teaching</h2>
+    
+    <div class="cv-list-container">
+      <ul>
+        {% for post in site.teaching reversed %}
+          {% include archive-single-cv.html %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  
+  <div class="cv-section">
+    <h2 class="section-heading">Service and Leadership</h2>
+    
+    <div class="cv-item">
+      Currently active in 43 different Slack teams, facilitating academic communication and collaboration
+    </div>
+  </div>
+</div>
