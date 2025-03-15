@@ -5,20 +5,57 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div style="padding: 20px; margin: 25px 0; background-color: #e3f2fd; border-radius: 8px; border-left: 5px solid #2196f3;">
-<h2 style="color: #1565c0; margin-top: 0;">My Research Articles</h2>
+<style>
+  .publications-container {
+    margin: 2.5em 0;
+    padding: 1.8em;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+  }
+  .section-heading {
+    border-bottom: 2px solid #3a6a8a;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #333;
+  }
+  .pub-item {
+    margin: 1.5em 0;
+    padding: 1.2em;
+    border-left: 3px solid #546e7a;
+    background-color: #fafafa;
+  }
+  .scholar-link {
+    margin-bottom: 1.5em;
+    font-size: 0.95em;
+  }
+  .scholar-link a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #34495e;
+  }
+  .divider {
+    margin: 1.5em 0;
+    border-top: 1px solid #ddd;
+  }
+</style>
 
-{% if site.author.googlescholar %}
-  <p style="color: #1976d2;">You can also find my articles on <a href="{{site.author.googlescholar}}" style="color: #0d47a1; text-decoration: underline; font-weight: bold;">my Google Scholar profile</a>.</p>
-{% endif %}
-
-<div style="margin-top: 20px; border-top: 1px dashed #90caf9; padding-top: 20px;">
+<div class="publications-container">
+  <h2 class="section-heading">Research Articles</h2>
+  
+  {% if site.author.googlescholar %}
+    <p class="scholar-link">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</p>
+  {% endif %}
+  
+  <div class="divider"></div>
+  
   {% include base_path %}
-
+  
   {% for post in site.publications reversed %}
-    <div style="padding: 15px; margin: 15px 0; background-color: #f8fdff; border-radius: 5px; border-left: 3px solid #64b5f6;">
+    <div class="pub-item">
       {% include archive-single.html %}
     </div>
   {% endfor %}
-</div>
 </div>
