@@ -7,13 +7,72 @@ redirect_from:
   - /wordpress/blog-posts/
 ---
 
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+<style>
+  .posts-container {
+    margin: 2.5em 0;
+    padding: 1.8em;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    background-color: rgba(255,255,255,0.9);
+  }
+  .section-heading {
+    border-bottom: 2px solid #3a6a8a;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #2c3e50;
+  }
+  .post-item {
+    margin: 1.2em 0;
+    padding: 1em;
+    border-left: 4px solid #546e7a;
+    background-color: rgba(250,250,250,0.95);
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .post-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  .year-heading {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-size: 1.4em;
+    color: #2c3e50;
+    padding-left: 0.5em;
+    border-left: 3px solid #4b6584;
+    background-color: rgba(240,240,240,0.5);
+    padding: 0.5em;
+    border-radius: 4px;
+  }
+  .divider {
+    margin: 1.5em 0;
+    border-top: 1px solid #ddd;
+  }
+  body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
+    background-attachment: fixed;
+  }
+</style>
+
+<div class="posts-container">
+  <h2 class="section-heading">Blog Archive</h2>
+  
+  <div class="divider"></div>
+  
+  {% include base_path %}
+  {% capture written_year %}'None'{% endcapture %}
+  
+  {% for post in site.posts %}
+    {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+    {% if year != written_year %}
+      <h3 id="{{ year | slugify }}" class="year-heading">{{ year }}</h3>
+      {% capture written_year %}{{ year }}{% endcapture %}
+    {% endif %}
+    <div class="post-item">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
+</div>
