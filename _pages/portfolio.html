@@ -6,38 +6,54 @@ author_profile: true
 ---
 
 <style>
-  /* 添加淡蓝色背景 */
   body {
     background-color: #e6f7ff;
     background-attachment: fixed;
   }
   
-  /* 使内容区域透明，以显示背景色 */
   .page__content {
     background-color: transparent;
   }
   
-  /* 为portfolio项目添加样式 */
-  .archive__item {
-    background-color: white;
+  .portfolio-container {
+    margin: 2.5em 0;
+    padding: 1.8em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.2s, box-shadow 0.2s;
-    overflow: hidden;
-    margin-bottom: 1.5em;
-    border-left: 4px solid #3a6a8a;
+    background-color: rgba(255,255,255,0.9);
   }
   
-  .archive__item:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  .section-heading {
+    border-bottom: 2px solid #3a6a8a;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color: #2c3e50;
+  }
+  
+  .portfolio-item {
+    margin: 1.2em 0;
+    padding: 1em;
+    border-left: 4px solid #546e7a;
+    background-color: rgba(250,250,250,0.95);
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+    overflow: hidden;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
   /* 优化图片显示 */
   .archive__item-teaser {
     position: relative;
     overflow: hidden;
-    max-height: 200px;
+    border-radius: 4px;
+    margin-bottom: 0.8em;
   }
   
   .archive__item-teaser img {
@@ -45,29 +61,38 @@ author_profile: true
     transition: transform 0.3s;
   }
   
-  .archive__item:hover .archive__item-teaser img {
+  .portfolio-item:hover .archive__item-teaser img {
     transform: scale(1.05);
   }
   
   /* 文字内容区域样式 */
-  .archive__item-body {
-    padding: 1.2em;
-  }
-  
   .archive__item-title {
     margin-top: 0.5em;
-    border-bottom: 2px solid #4b6584;
-    padding-bottom: 0.5em;
+    color: #2c3e50;
+    font-weight: 600;
   }
   
   .archive__item-excerpt {
     margin-top: 0.8em;
     color: #333;
   }
+  
+  .divider {
+    margin: 1.5em 0;
+    border-top: 1px solid #ddd;
+  }
 </style>
 
-{% include base_path %}
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="portfolio-container">
+  <h2 class="section-heading">Portfolio Projects</h2>
+  
+  <div class="divider"></div>
+  
+  {% include base_path %}
+  
+  {% for post in site.portfolio %}
+    <div class="portfolio-item">
+      {% include archive-single.html %}
+    </div>
+  {% endfor %}
+</div>
