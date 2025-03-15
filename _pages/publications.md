@@ -65,7 +65,23 @@ author_profile: true
   <div class="year-divider">{{ year.name }}</div>
   {% for post in year.items %}
     <div class="article-item">
-      {% include archive-single.html %}
+      <h2><a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.authors }}</p>
+      <p><em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      
+      {% if post.excerpt and site.read_more != 'enabled' %}
+        <p>{{ post.excerpt | markdownify }}</p>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+        <p>{{ post.excerpt | markdownify }} <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></p>
+      {% endif %}
+      
+      {% if post.citation and post.paperurl %}
+        <p>Recommended citation: {{ post.citation }} <a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> PDF</a></p>
+      {% elsif post.citation %}
+        <p>Recommended citation: {{ post.citation }}</p>
+      {% elsif post.paperurl %}
+        <p><a href="{{ post.paperurl }}"><i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> Download PDF</a></p>
+      {% endif %}
     </div>
   {% endfor %}
 {% endfor %}
