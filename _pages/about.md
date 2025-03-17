@@ -15,8 +15,8 @@ redirect_from:
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: transform 0.2s, box-shadow 0.2s;
     border-left: 4px solid #3a6a8a;
-    max-width: 125%;
-    width: 125%;
+#    max-width: 125%;
+#    width: 125%;
     background-color: rgba(255,255,255,0.9);
   }
   .academic-section:hover {
