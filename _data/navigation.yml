@@ -5,7 +5,7 @@ main:
     icon: "fas fa-file-alt"
     
   - title: "Patents"
-    url: /talks/    
+    url: /patents/    
     icon: "fas fa-chalkboard-teacher"
 
   - title: "Talk"
