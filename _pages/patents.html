@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Awards & Patents"
+title: "Patents"
 permalink: /patents/
 author_profile: true
 ---
@@ -8,15 +8,15 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .list-container {
+  .patents-container {
     margin: 2.5em 0;
     padding: 1.8em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    background-color: rgba(255,255,255,0.9);
     transition: transform 0.2s, box-shadow 0.2s;
+    background-color: rgba(255,255,255,0.9);
   }
-  .list-container:hover {
+  .patents-container:hover {
     transform: translateY(-3px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
@@ -28,7 +28,7 @@ author_profile: true
     font-size: 1.5em;
     color: #2c3e50;
   }
-  .item {
+  .patent-item {
     margin: 1.2em 0;
     padding: 1em;
     border-left: 3px solid #3a6a8a;
@@ -37,11 +37,11 @@ author_profile: true
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  .item:hover {
+  .patent-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  .year-heading {
+  .patent-year-heading {
     margin-top: 1.5em;
     margin-bottom: 0.8em;
     font-size: 1.4em;
@@ -49,7 +49,7 @@ author_profile: true
     padding-left: 0.5em;
     border-left: 3px solid #3a6a8a;
   }
-  .no-items {
+  .no-patents {
     font-style: italic;
     color: #546e7a;
     padding: 1.2em;
@@ -63,46 +63,23 @@ author_profile: true
   }
 </style>
 
-<!-- Patents Section -->
-<div class="list-container">
+<div class="patents-container">
   <h2 class="section-heading">Patents</h2>
   {% assign patent_count = site.patents | size %}
   {% if patent_count > 0 %}
     {% assign patents_by_year = site.patents | group_by_exp: "post", "post.date | date: '%Y'" %}
     {% assign sorted_patent_years = patents_by_year | sort: "name" | reverse %}
     {% for year_group in sorted_patent_years %}
-      <h3 class="year-heading">{{ year_group.name }}</h3>
+      <h3 class="patent-year-heading">{{ year_group.name }}</h3>
       {% for post in year_group.items %}
-        <div class="item">
+        <div class="patent-item">
           {% include archive-single.html %}
         </div>
       {% endfor %}
     {% endfor %}
   {% else %}
-    <div class="no-items">
+    <div class="no-patents">
       <p>No patents to display at the moment. Please check back later.</p>
-    </div>
-  {% endif %}
-</div>
-
-<!-- Prizes Section -->
-<div class="list-container">
-  <h2 class="section-heading">Prizes</h2>
-  {% assign prize_count = site.prizes | size %}
-  {% if prize_count > 0 %}
-    {% assign prizes_by_year = site.prizes | group_by_exp: "post", "post.date | date: '%Y'" %}
-    {% assign sorted_prize_years = prizes_by_year | sort: "name" | reverse %}
-    {% for year_group in sorted_prize_years %}
-      <h3 class="year-heading">{{ year_group.name }}</h3>
-      {% for post in year_group.items %}
-        <div class="item">
-          {% include archive-single.html %}
-        </div>
-      {% endfor %}
-    {% endfor %}
-  {% else %}
-    <div class="no-items">
-      <p>No prizes to display at the moment. Please check back later.</p>
     </div>
   {% endif %}
 </div>
