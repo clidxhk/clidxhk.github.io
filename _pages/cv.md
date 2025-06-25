@@ -135,6 +135,18 @@ redirect_from:
 </div>
 
 <div class="cv-section">
+  <h2 class="section-heading">Prizes</h2>
+  
+  <div class="cv-list-container">
+    <ul>
+      {% for post in site.talks reversed %}
+        {% include archive-single-prizes-cv.html %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="cv-section">
   <h2 class="section-heading">Talks</h2>
   
   <div class="cv-list-container">
