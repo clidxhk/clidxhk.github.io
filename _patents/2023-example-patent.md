@@ -11,13 +11,7 @@ citation: 'Kang T., Wu X., Wang F. et al., Ir(III)-Based Photosensitizer-Loaded 
 
 **Abstract**
 
-The synthesis of organic photosensitizers with effective reactive oxygen species (ROS) generation remains one of the urgent needs for cancer therapy. 
-In this study, a simple strategy is developed to endow the intrinsic non-photosensitizer fluorophores with profound ROS-generating ability upon light irradiation. 
-This strategy is featured by introducing donor–acceptor (D-A) structured fluorophores as auxiliary ligands into the Ir(III) metal complex, which provides the Ir(III) metal center-based triplet state (T1) as an energy level springboard to efficiently enhance the energy transition to the D-A ligand-based triplet state (T1'). 
-The energy level difference between T1 and T1' can be regulated through altering the cyclometalated ligands of Ir(III), facilitating the energy transfer from T1 to T1' for augmented ROS generation. 
-To improve the pharmacological properties of the obtained D-A coordinated Ir(III) complex, it is incorporated with the exosomes extracted from M1 phenotype macrophages (M1-Exos). 
-The generated nanocomplexes are able to trigger synergistic photodynamic therapy, facilitating the reprogramming of tumor-associated macrophages and eradicating the tumors in mice. 
-This study provides a general strategy to transform non-photosensitizer fluorophores into effective photosensitizers for biomedical applications.
+本发明适用于光动力抗菌技术领域，提供一种抗病原体纤维膜的制备方法及其应用。首先制备所述式(Ⅰ)所示化合物以及式(Ⅱ)所示化合物，两种所述化合物具备高活性氧产生效率，其次将其应用于抗菌型纤维膜的制备。本发明的式(Ⅰ)所示化合物和式(Ⅱ)所示化合物，及其制备成的纤维膜对包括革兰氏阴性菌和革兰氏阳性菌，冠状病毒等在内的各种致病微生物有强的杀灭活性。本发明中的纤维膜在光照下可在20min内快速杀灭细菌和病原体。同时，纤维膜具有良好的力学性能，热学稳定性和光学透过性能，可应用于纺织原料，医疗材料等用途。
 
 
 ![PSU382022055CN1-202310143086 2-250603发明专利证书](https://github.com/user-attachments/assets/7aca1852-af49-4875-bff2-1d838d9586ab)
