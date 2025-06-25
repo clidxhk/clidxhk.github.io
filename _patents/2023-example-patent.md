@@ -1,5 +1,5 @@
 ---
-title: "Ir(III)-Based Photosensitizer-Loaded M1 Macrophage Exosomes for Synergistic Photodynamic Therapy"
+title: "一种抗病原体纤维膜的制备方法及其应用"
 collection: patents
 permalink: /patents/2023-example-patent 
 excerpt: '(8th author) This study focuses on the development of live-cell permeable fluorophores for super-resolution imaging of subcellular targets.'
