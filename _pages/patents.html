@@ -8,13 +8,17 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .teaching-container {
+  .patents-container {
     margin: 2.5em 0;
     padding: 1.8em;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    background-color: rgba(255,255,255,0.9);
     transition: transform 0.2s, box-shadow 0.2s;
+    background-color: rgba(255,255,255,0.9);
+  }
+  .patents-container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   }
   .section-heading {
     border-bottom: 2px solid #3a6a8a;
@@ -24,29 +28,28 @@ author_profile: true
     font-size: 1.5em;
     color: #2c3e50;
   }
-  .teaching-intro {
-    margin-bottom: 1.5em;
-    line-height: 1.6;
-    color: #2c3e50;
+  .patent-item {
+    margin: 1.2em 0;
     padding: 1em;
-    background-color: rgba(250,250,250,0.7);
-    border-radius: 6px;
     border-left: 3px solid #3a6a8a;
-  }
-  .course-item {
-    margin: 1.5em 0;
-    padding: 1.2em;
-    background-color: rgba(250,250,250,0.95);
+    background-color: rgba(250,250,250,0.9);
     border-radius: 4px;
-    border-left: 4px solid #3a6a8a;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
   }
-  .course-item:hover {
+  .patent-item:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  .no-courses {
+  .patent-year-heading {
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    font-size: 1.4em;
+    color: #2c3e50;
+    padding-left: 0.5em;
+    border-left: 3px solid #3a6a8a;
+  }
+  .no-patents {
     font-style: italic;
     color: #546e7a;
     padding: 1.2em;
@@ -54,79 +57,29 @@ author_profile: true
     border-radius: 6px;
     border-left: 3px solid #3a6a8a;
   }
-  .teaching-philosophy {
-    padding: 1.5em;
-    border-radius: 6px;
-    background-color: rgba(250,250,250,0.8);
-    border-left: 4px solid #3a6a8a;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
-  }
-  .philosophy-content {
-    line-height: 1.6;
-    color: #2c3e50;
-  }
-  .year-heading {
-    margin-top: 1.5em;
-    margin-bottom: 0.8em;
-    font-size: 1.3em;
-    color: #2c3e50;
-    padding-left: 0.5em;
-    border-left: 3px solid #3a6a8a;
-  }
-  .divider {
-    margin: 2em 0;
-    border-top: 1px solid #ddd;
-  }
   body {
     background-color: #f0f8ff;
     background-attachment: fixed;
   }
 </style>
 
-<div class="teaching-container">
-  <h2 class="section-heading">Teaching Experience</h2>
-  
-  <div class="teaching-intro">
-    <p>I believe that education is not just about transferring knowledge but also about inspiring curiosity and critical thinking. Below you can find information about courses I have taught or assisted with.</p>
-  </div>
-
-  {% assign course_count = site.teaching | size %}
-  {% if course_count > 0 %}
-    {% assign courses_by_year = site.teaching | group_by_exp: "post", "post.date | date: '%Y'" %}
-    {% assign sorted_years = courses_by_year | sort: "name" | reverse %}
-    
-    {% for year_group in sorted_years %}
-      <h3 class="year-heading">{{ year_group.name }}</h3>
+<div class="patents-container">
+  <h2 class="section-heading">Patents</h2>
+  {% assign patent_count = site.patents | size %}
+  {% if patent_count > 0 %}
+    {% assign patents_by_year = site.patents | group_by_exp: "post", "post.date | date: '%Y'" %}
+    {% assign sorted_patent_years = patents_by_year | sort: "name" | reverse %}
+    {% for year_group in sorted_patent_years %}
+      <h3 class="patent-year-heading">{{ year_group.name }}</h3>
       {% for post in year_group.items %}
-        <div class="course-item">
+        <div class="patent-item">
           {% include archive-single.html %}
         </div>
       {% endfor %}
     {% endfor %}
   {% else %}
-    <div class="no-courses">
-      <p>Currently updating my teaching portfolio. Please check back soon for information about my teaching experience and courses.</p>
+    <div class="no-patents">
+      <p>No patents to display at the moment. Please check back later.</p>
     </div>
   {% endif %}
-</div>
-
-<div class="teaching-container">
-  <h2 class="section-heading">Teaching Philosophy</h2>
-  
-  <div class="teaching-philosophy">
-    <div class="philosophy-content">
-      <p>My approach to teaching combines theoretical foundations with practical applications, emphasizing the importance of hands-on experience. I strive to create an inclusive learning environment where students feel comfortable asking questions and engaging in discussions.</p>
-      
-      <p>I encourage students to not only master the material but also to understand its broader implications and applications in real-world scenarios. My goal is to equip students with both the knowledge and critical thinking skills they need to succeed in their academic and professional careers.</p>
-      
-      <p>Core principles of my teaching philosophy include:</p>
-      <ul>
-        <li>Active learning through problem-solving and discussion</li>
-        <li>Connecting theoretical concepts to real-world applications</li>
-        <li>Creating an inclusive and supportive learning environment</li>
-        <li>Promoting critical thinking and intellectual curiosity</li>
-        <li>Adapting teaching methods to diverse learning styles</li>
-      </ul>
-    </div>
-  </div>
 </div>
