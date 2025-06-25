@@ -3,6 +3,10 @@ main:
   - title: "Research"
     url: /publications/
     icon: "fas fa-file-alt"
+    
+  - title: "Patents"
+    url: /talks/    
+    icon: "fas fa-chalkboard-teacher"
 
   - title: "Talk"
     url: /talks/    
