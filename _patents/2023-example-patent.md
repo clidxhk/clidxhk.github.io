@@ -1,7 +1,7 @@
 ---
 title: "Ir(III)-Based Photosensitizer-Loaded M1 Macrophage Exosomes for Synergistic Photodynamic Therapy"
-collection: publications
-permalink: /publication/Adv_Funct_Mater-34-2408142-2024 
+collection: patents
+permalink: /patents/2023-example-patent 
 excerpt: '(8th author) This study focuses on the development of live-cell permeable fluorophores for super-resolution imaging of subcellular targets.'
 date: 2024-08-28
 venue: 'Advanced Functional Materials'
