@@ -8,9 +8,9 @@ main:
     url: /prizes/    
     icon: "fas fa-chalkboard-teacher"
 
-  - title: "Talk"
-    url: /talks/    
-    icon: "fas fa-chalkboard-teacher"
+  # - title: "Talk"
+  #   url: /talks/    
+  #   icon: "fas fa-chalkboard-teacher"
 
   - title: "Teaching"
     url: /teaching/    
@@ -28,6 +28,6 @@ main:
     url: /cv/
     icon: "fas fa-id-card"
     
-  - title: "Resources"
-    url: /markdown/
-    icon: "fas fa-book"
+  # - title: "Resources"
+  #   url: /markdown/
+  #   icon: "fas fa-book"
