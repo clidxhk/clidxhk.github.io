@@ -82,7 +82,7 @@ author_profile: true
     </div>
   {% endif %}
 
-  <h2 class="section-heading">Research Articles</h2>
+  <h2 class="section-heading">Articles and Patents</h2>
     
   {% include base_path %}
   
