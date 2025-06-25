@@ -139,8 +139,8 @@ redirect_from:
   
   <div class="cv-list-container">
     <ul>
-      {% for post in site.talks reversed %}
-        {% include archive-single-prizes-cv.html %}
+      {% for post in site.prizes reversed %}
+        {% include archive-single-cv.html %}
       {% endfor %}
     </ul>
   </div>
