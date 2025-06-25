@@ -4,8 +4,8 @@ main:
     url: /publications/
     icon: "fas fa-file-alt"
     
-  - title: "Patents"
-    url: /patents/    
+  - title: "Prizes"
+    url: /prizes/    
     icon: "fas fa-chalkboard-teacher"
 
   - title: "Talk"
