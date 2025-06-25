@@ -146,17 +146,19 @@ redirect_from:
   </div>
 </div>
 
-<div class="cv-section">
-  <h2 class="section-heading">Talks</h2>
-  
-  <div class="cv-list-container">
-    <ul>
-      {% for post in site.talks reversed %}
-        {% include archive-single-talk-cv.html %}
-      {% endfor %}
-    </ul>
+{% comment %}
+  <div class="cv-section">
+    <h2 class="section-heading">Talks</h2>
+    
+    <div class="cv-list-container">
+      <ul>
+        {% for post in site.talks reversed %}
+          {% include archive-single-talk-cv.html %}
+        {% endfor %}
+      </ul>
+    </div>
   </div>
-</div>
+{% endcomment %}
 
 <div class="cv-section">
   <h2 class="section-heading">Teaching</h2>
