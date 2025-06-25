@@ -1,7 +1,7 @@
 ---
 title: "一种抗病原体纤维膜的制备方法及其应用"
 collection: publication
-permalink: /patents/2023-example-patent 
+permalink: /publication/2023-example-patent 
 excerpt: 'ZL 202310143086.2'
 date: 2025-06-03
 venue: 'China'
