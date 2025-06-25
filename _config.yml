@@ -213,6 +213,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  patents:
+    output: true
+    permalink: /:collection/:path/
+  prizes:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -270,7 +276,25 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _patents
+  - scope:
+      path: ""
+      type: patents
+    values:
+      layout: patent
+      author_profile: true
+      share: true
+      comments:true
 
+  # _prizes
+  - scope:
+      path: ""
+      type: prizes
+    values:
+      layout: patent
+      author_profile: true
+      share: true
+      comments:true
 
 # Sass/SCSS
 sass:
