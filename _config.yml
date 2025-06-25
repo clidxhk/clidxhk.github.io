@@ -294,7 +294,7 @@ defaults:
       layout: patent
       author_profile: true
       share: true
-      comments:true
+      comments: true
 
 # Sass/SCSS
 sass:
