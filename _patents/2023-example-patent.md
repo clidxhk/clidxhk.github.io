@@ -1,11 +1,11 @@
 ---
-title: "：ZL 202310143086.2 一种抗病原体纤维膜的制备方法及其应用"
+title: "ZL 202310143086.2 一种抗病原体纤维膜的制备方法及其应用"
 collection: patents
 permalink: /patents/2023-example-patent 
-excerpt: '(8th author) This study focuses on the development of live-cell permeable fluorophores for super-resolution imaging of subcellular targets.'
-date: 2023-08-28
-venue: 'Advanced Functional Materials'
-paperurl: 'https://onlinelibrary.wiley.com/doi/full/10.1002/adfm.202408142'
+excerpt: 'ZL 202310143086.2'
+date: 2025-06-03
+venue: 'China'
+paperurl: 'http://epub.cnipa.gov.cn/cred/CN116375697B'
 citation: 'Kang T., Wu X., Wang F. et al., Ir(III)-Based Photosensitizer-Loaded M1 Macrophage Exosomes for Synergistic Photodynamic Therapy. Adv. Funct. Mater. 34, 2408142 (2024), https://doi.org/10.1002/adfm.202408142'
 ---
 
