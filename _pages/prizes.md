@@ -69,7 +69,7 @@ author_profile: true
     <h3 class="year-heading">{{ year_group.name }}</h3>
     {% for post in year_group.items %}
       <div class="prize-item">
-        {% include archive-single.html %}
+        {% include archive.html %}
       </div>
     {% endfor %}
   {% endfor %}
