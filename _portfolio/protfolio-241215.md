@@ -1,8 +1,8 @@
 ---
-title: "2025 Summer HKUST Tang’s Group"
+title: "2024 Winter 粤港澳聚集体科学青年研讨会 (Guangdong-Hong Kong-Macao Aggregate Science Youth Seminar)"
 date: 2024-12-15
-excerpt: "The photo of Tang's Group 2025 Summer <br/><img src='/images/HKUST_Summer_2025.jpg'>"
+excerpt: "The photo of Guangdong-Hong Kong-Macao Aggregate Science Youth Seminar in 2025 Summer <br/><img src='/images/Aggregate.jpg'>"
 collection: portfolio
 ---
 
-There is the photo of my group (HKUST Tang's Group). I am honored to be a part of it. The photo is taked on 2025 Summer in Causeway Bay of Hong Kong
+In 2024, our group went to Shenzhen to Guangdong-Hong Kong-Maco aggregate Science Youth Seminar. There is the Seminar photo.
