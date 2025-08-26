@@ -1,5 +1,6 @@
 ---
 title: "2025 Summer HKUST Tang’s Group"
+date: 2025-08
 excerpt: "The photo of Tang's Group 2025 Summer <br/><img src='/images/HKUST_Summer_2025.jpg'>"
 collection: portfolio
 ---
