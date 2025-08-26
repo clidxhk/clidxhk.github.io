@@ -176,6 +176,6 @@ redirect_from:
   <h2 class="section-heading">Service and Leadership</h2>
   
   <div class="cv-item">
-    Currently active in 43 different Slack teams, facilitating academic communication and collaboration
+    Currently Volunteer Service Hours: 58.67 hours
   </div>
 </div>
