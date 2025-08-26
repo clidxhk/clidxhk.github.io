@@ -1,5 +1,5 @@
 ---
-title: "2025 Spring HKUST Tang’s Group Dinner"
+title: "2025 Spring HKUST Group Dinner"
 date: 2025-05-22
 excerpt: "The photo of Tang's Group 2025 Spring <br/><img src='/images/HKUST_Spring_2025_2.jpg'>"
 collection: portfolio
