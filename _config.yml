@@ -278,7 +278,7 @@ defaults:
       path: ""
       type: prizes
     values:
-      layout: patent
+      layout: single
       author_profile: true
       share: true
       comments: true
