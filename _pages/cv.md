@@ -177,5 +177,6 @@ redirect_from:
   
   <div class="cv-item">
     Currently Volunteer Service Hours: 58.67 hours
+    Cumulative Donations: 8440.02 RMB
   </div>
 </div>
