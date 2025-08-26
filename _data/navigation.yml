@@ -16,6 +16,10 @@ main:
     url: /teaching/    
     icon: "fas fa-graduation-cap"
     
+  - title: "Service"
+    url: /service/
+    icon: "fas fa-hands-helping"
+    
   - title: "Portfolio"
     url: /portfolio/
     icon: "fas fa-project-diagram"
