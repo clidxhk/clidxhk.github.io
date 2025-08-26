@@ -1,5 +1,6 @@
 ---
 title: "2024 Spring HKUST Tang's Group"
+date: 2024-03-27
 excerpt: "The photo of Tang's Group 2024 Spring<br/><img src='/images/Group_Photo_2024_Spring.jpg'>"
 collection: portfolio
 ---
