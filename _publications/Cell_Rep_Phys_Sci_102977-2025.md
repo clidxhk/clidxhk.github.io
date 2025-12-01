@@ -1,7 +1,7 @@
 ---
 title: "Repurposing clinical iron oxide agents for mild hyperthermia-assisted cancer therapy"
 collection: publications
-permalink: /publication/Cell_Rep_Phys_Sci_102977_2025
+permalink: /publication/Cell_Rep_Phys_Sci_102977-2025
 excerpt: '(10th author) This study highlight mild hyperthermia can enhance iron oxide toxicity and sensitize tumor cells to ferroptosis.'
 date: 2025-11-25
 venue: 'Cell Reports Physical Science'
