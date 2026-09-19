@@ -5,4 +5,4 @@ excerpt: "The photo of Guangdong-Hong Kong-Macao Aggregate Science Youth Seminar
 collection: portfolio
 ---
 
-In 2024, our group went to Shenzhen to Guangdong-Hong Kong-Maco aggregate Science Youth Seminar. There is the Seminar photo.
+In 2024, our group went to Shenzhen to Guangdong-Hong Kong-Macao aggregate Science Youth Seminar. There is the Seminar photo.
