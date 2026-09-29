@@ -59,6 +59,11 @@ redirect_from:
     color: #7f8c8d;
     font-size: 0.95em;
   }
+  .cv-advisor {
+    display: block;
+    color: #7f8c8d;
+    font-size: 0.95em;
+  }
   .research-area {
     font-weight: 600;
     color: #2c3e50;
@@ -82,61 +87,89 @@ redirect_from:
 
 <div class="cv-section">
   <h2 class="section-heading">Education</h2>
-  
+
   <div class="cv-item">
-    <span class="cv-degree">Ph.D. in Chemistry</span> | 
-    <span class="cv-institution">Hong Kong University of Science and Technology</span> | 
-    <span class="cv-date">2023-2027 (expected)</span>
+    <span class="cv-degree">Ph.D. in Chemistry</span> |
+    <span class="cv-institution">The Hong Kong University of Science and Technology</span> |
+    <span class="cv-date">2023&ndash;present (expected 2027)</span>
+    <span class="cv-advisor">Advisors: Prof. Ben-Zhong Tang and Prof. Sun</span>
   </div>
-  
+
   <div class="cv-item">
-    <span class="cv-degree">M.S. in Chemistry</span> | 
-    <span class="cv-institution">Southern University of Science and Technology</span> | 
-    <span class="cv-date">2020-2023</span>
+    <span class="cv-degree">M.S. in Chemistry</span> |
+    <span class="cv-institution">Southern University of Science and Technology</span> |
+    <span class="cv-date">2020&ndash;2023</span>
+    <span class="cv-advisor">Advisor: Prof. Kai Li</span>
   </div>
-  
+
   <div class="cv-item">
-    <span class="cv-degree">B.S. in Materials Science and Engineering</span> | 
-    <span class="cv-institution">Southern University of Science and Technology</span> | 
-    <span class="cv-date">2016-2020</span>
+    <span class="cv-degree">B.S. in Materials Science and Engineering</span> |
+    <span class="cv-institution">Southern University of Science and Technology</span> |
+    <span class="cv-date">2016&ndash;2020</span>
   </div>
 </div>
 
 <div class="cv-section">
   <h2 class="section-heading">Research Interests</h2>
-  
+
   <div class="cv-item">
-    <span class="research-area">Nano-aggregate Science</span>: Study of nanoscale structures and their properties
+    <span class="research-area">Photodynamic Therapy &amp; AIE Photosensitizers</span>: Rational design of aggregation-induced emission photosensitizers for anti-tumor and anti-pathogen applications
   </div>
-  
+
   <div class="cv-item">
-    <span class="research-area">Organic Electronics</span>: Investigation of electronic properties in organic materials
+    <span class="research-area">Biomedical Photochemistry</span>: Advanced imaging technologies, image-guided therapy and remote phototherapy with excited-state molecules
   </div>
-  
+
   <div class="cv-item">
-    <span class="research-area">Data-centric Scientific Research</span>: Application of data-driven approaches to scientific problems
+    <span class="research-area">AI for Chemistry</span>: Data-driven molecular engineering and machine-learning-guided discovery of functional photosensitizers
   </div>
-  
+
   <div class="cv-item">
-    <span class="research-area">Electrospun Nanofibers</span>: Development and application of nanofibers produced via electrospinning
+    <span class="research-area">Functional Fibrous Materials</span>: Electrospun anti-pathogen fibrous membranes for textile and medical applications
   </div>
 </div>
 
 <div class="cv-section">
   <h2 class="section-heading">Publications</h2>
-  
+
   <div class="cv-list-container">
     <ul>
       {% for post in site.publications reversed %}
-        {% include archive-single-cv.html %}
+        {% unless post.type == "Patent" %}
+          {% include archive-single-cv.html %}
+        {% endunless %}
       {% endfor %}
     </ul>
   </div>
 </div>
 
 <div class="cv-section">
+  <h2 class="section-heading">Patents</h2>
+
+  <div class="cv-list-container">
+    <ul>
+      {% for post in site.publications reversed %}
+        {% if post.type == "Patent" %}
+          {% include archive-single-cv.html %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h2 class="section-heading">Software</h2>
+
+  <div class="cv-item">
+    <span class="research-area">Solvent Fraction Convertor</span> (2025): A web tool for interconverting the mole, volume and mass fractions of solvent mixtures.
+    <br>
+    <a href="https://clidx-solvent-fraction-convertor.hf.space">Hugging Face</a> &middot; <a href="https://modelscope.cn/studios/SUSTechCN/Solvent_Fraction_Convertor/summary">ModelScope (魔搭)</a>
+  </div>
+</div>
+
+<div class="cv-section">
   <h2 class="section-heading">Prizes</h2>
-  
+
   <div class="cv-list-container">
     <ul>
       {% for post in site.prizes reversed %}
@@ -146,23 +179,9 @@ redirect_from:
   </div>
 </div>
 
-{% comment %}
-  <div class="cv-section">
-    <h2 class="section-heading">Talks</h2>
-    
-    <div class="cv-list-container">
-      <ul>
-        {% for post in site.talks reversed %}
-          {% include archive-single-talk-cv.html %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-{% endcomment %}
-
 <div class="cv-section">
   <h2 class="section-heading">Teaching</h2>
-  
+
   <div class="cv-list-container">
     <ul>
       {% for post in site.teaching reversed %}
@@ -173,10 +192,13 @@ redirect_from:
 </div>
 
 <div class="cv-section">
-  <h2 class="section-heading">Service and Leadership</h2>
-  
+  <h2 class="section-heading">Service</h2>
+
   <div class="cv-item">
-    Currently Volunteer Service Hours: 58.67 hours
-    Cumulative Donations: 8440.02 RMB
+    Volunteer service: 58.67 hours
+  </div>
+
+  <div class="cv-item">
+    Cumulative charitable donations: RMB 8,440.02
   </div>
 </div>
