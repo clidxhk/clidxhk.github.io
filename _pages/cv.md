@@ -78,6 +78,16 @@ redirect_from:
   }
   .cv-list-container ul {
     margin-bottom: 0;
+    padding-left: 1.3em;
+  }
+  .cv-list-container li.archive__item {
+    margin: 0 0 0.9em 0;
+  }
+  .cv-list-container .archive__item-title {
+    margin: 0 0 0.25em 0;
+  }
+  .cv-list-container .archive__item-excerpt {
+    margin: 0;
   }
   body {
     background-color: #f0f8ff;
