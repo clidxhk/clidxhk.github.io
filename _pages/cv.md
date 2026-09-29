@@ -70,18 +70,22 @@ redirect_from:
   }
   .cv-list-container {
     background-color: rgba(250,250,250,0.9);
-    padding: 1.2em;
+    padding: 1.2em 1.4em;
     border-left: 3px solid #546e7a;
     margin: 1em 0;
     border-radius: 4px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   }
   .cv-list-container ul {
-    margin-bottom: 0;
-    padding-left: 1.3em;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
   }
   .cv-list-container li.archive__item {
-    margin: 0 0 0.9em 0;
+    margin: 0 0 1.2em 0;
+  }
+  .cv-list-container li.archive__item:last-child {
+    margin-bottom: 0;
   }
   .cv-list-container .archive__item-title {
     margin: 0 0 0.25em 0;
