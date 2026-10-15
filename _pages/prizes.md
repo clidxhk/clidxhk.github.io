@@ -3,6 +3,7 @@ layout: archive
 title: "Prizes"
 permalink: /prizes/
 author_profile: true
+academic_style: true
 ---
 
 <style>
