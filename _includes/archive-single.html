@@ -32,7 +32,7 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{% if title_zh != blank %}<span class="lang-en">{{ title }}</span><span class="lang-zh">{{ title_zh }}</span>{% else %}{{ title }}{% endif %}</a>
+        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{% if post.title_zh %}<span class="lang-en">{{ title }}</span><span class="lang-zh">{{ title_zh }}</span>{% else %}{{ title }}{% endif %}</a>
       {% endif %}
     </h2>
 
@@ -49,9 +49,9 @@
         {% endif %}
 
     {% if post.excerpt and site.read_more != 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{% if post.excerpt_zh != blank %}<span class="lang-en">{{ post.excerpt | markdownify }}</span><span class="lang-zh">{{ post.excerpt_zh | markdownify }}</span>{% else %}{{ post.excerpt | markdownify }}{% endif %}</p>
+    <p class="archive__item-excerpt" itemprop="description">{% if post.excerpt_zh %}<span class="lang-en">{{ post.excerpt | markdownify }}</span><span class="lang-zh">{{ post.excerpt_zh | markdownify }}</span>{% else %}{{ post.excerpt | markdownify }}{% endif %}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
-    <p class="archive__item-excerpt" itemprop="description">{% if post.excerpt_zh != blank %}<span class="lang-en">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></span><span class="lang-zh">{{ post.excerpt_zh | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> 阅读全文</a></strong></span>{% else %}<p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>{% endif %}</p>
+    <p class="archive__item-excerpt" itemprop="description">{% if post.excerpt_zh %}<span class="lang-en">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></span><span class="lang-zh">{{ post.excerpt_zh | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> 阅读全文</a></strong></span>{% else %}<p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>{% endif %}</p>
     {% endif %}
 
     {% if post.citation and post.paperurl and post.slidesurl %}
