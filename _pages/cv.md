@@ -3,56 +3,16 @@ layout: archive
 title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
+academic_style: true
 redirect_from:
   - /resume
+  - /service/
+  - /service.html
 ---
 
 {% include base_path %}
 
-<style>
-  .cv-section { margin: 0 0 4rem; }
-  .cv-eyebrow { margin: 0 0 .6rem; color: #50bdba; font-size: .78em; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
-  .cv-heading { max-width: 650px; margin: 0 0 1.8rem; color: #133248; font-size: clamp(1.7rem, 3.5vw, 2.4rem); font-weight: 700; letter-spacing: -.03em; line-height: 1.18; }
-
-  .cv-grid { display: grid; gap: 1rem; }
-  .cv-grid--3 { grid-template-columns: repeat(3, 1fr); }
-  .cv-grid--2 { grid-template-columns: repeat(2, 1fr); }
-
-  .cv-card { padding: 1.55rem; border: 1px solid #dce8eb; border-radius: .75rem; background: #fff; box-shadow: 0 8px 24px rgba(15,53,70,.05); transition: transform .2s ease, box-shadow .2s ease; }
-  .cv-card:hover { transform: translateY(-4px); box-shadow: 0 16px 30px rgba(15,53,70,.11); }
-
-  .cv-icon { display: inline-grid; width: 2.6rem; height: 2.6rem; place-items: center; border-radius: .55rem; color: #147a82; background: #e5f5f3; font-size: 1.05rem; }
-  .cv-card h3 { margin: 1.05rem 0 .55rem; color: #143449; font-size: 1.08em; line-height: 1.3; }
-  .cv-card p { margin: 0 0 .45rem; color: #617586; font-size: .9em; line-height: 1.6; }
-  .cv-card .cv-meta { color: #78909c; font-size: .84em; }
-  .cv-card .cv-advisor { color: #617586; font-size: .86em; }
-
-  .cv-entries { margin: 0; padding: 0; list-style: none; }
-  .cv-entries .archive__item { margin: 0; padding: 1.05rem 0; border-bottom: 1px solid #e6eff2; }
-  .cv-entries .archive__item:first-child { padding-top: .3rem; }
-  .cv-entries .archive__item:last-child { padding-bottom: .35rem; border-bottom: none; }
-  .cv-entries .archive__item-title { margin: 0 0 .3rem; font-size: 1.02em; }
-  .cv-entries .archive__item-excerpt { margin: 0; color: #617586; font-size: .9em; line-height: 1.65; }
-
-  .cv-statement { display: grid; grid-template-columns: 1.05fr .95fr; gap: 3rem; padding: clamp(1.6rem, 4vw, 2.8rem); border-left: 4px solid #35a6a3; background: #edf6f6; border-radius: 0 .75rem .75rem 0; }
-  .cv-statement > div { align-self: center; }
-  .cv-statement h3 { margin: 0 0 .4rem; color: #143449; font-size: 1.15em; }
-  .cv-statement p { margin: 0; color: #36576a; font-size: .98em; line-height: 1.75; }
-
-  .cv-buttons { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.1rem; }
-  .cv-button { display: inline-flex; align-items: center; gap: .55rem; padding: .68rem 1.05rem; border: 1px solid transparent; border-radius: .35rem; font-size: .88em; font-weight: 700; text-decoration: none; transition: transform .2s ease, background-color .2s ease; }
-  .cv-button:hover { transform: translateY(-2px); }
-  .cv-button--primary { color: #0b2a3c; background: #d2efeb; }
-  .cv-button--primary:hover { color: #071b27; background: #fff; }
-  .cv-button--secondary { color: #0b2a3c; border-color: #9ecfd2; }
-  .cv-button--secondary:hover { background: rgba(255,255,255,.6); }
-
-  @media (max-width: 900px) {
-    .cv-grid--3, .cv-grid--2 { grid-template-columns: 1fr; }
-    .cv-statement { grid-template-columns: 1fr; gap: 1.3rem; }
-  }
-</style>
-
+<div class="academic-panel">
 <section class="cv-section" aria-labelledby="cv-edu">
   <p class="cv-eyebrow">Background</p>
   <h2 class="cv-heading" id="cv-edu">Education</h2>
@@ -182,8 +142,10 @@ redirect_from:
       <p>Community service and charitable giving alongside research.</p>
     </div>
     <div>
-      <p><strong style="color:#143449">58.67 hours</strong> of volunteer service</p>
-      <p><strong style="color:#143449">RMB 8,440.02</strong> in cumulative charitable donations</p>
+      <p><strong>58.67 hours</strong> of volunteer service</p>
+      <p><strong>RMB 8,440.02</strong> in cumulative charitable donations</p>
     </div>
   </div>
 </section>
+
+</div>

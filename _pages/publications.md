@@ -3,77 +3,8 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+academic_style: true
 ---
-
-<style>
-  .publications-container {
-    margin: 2.5em 0;
-    padding: 1.8em;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.2s, box-shadow 0.2s;
-    background-color: rgba(255,255,255,0.9);
-  }
-  .publications-container:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-  }
-  .section-heading {
-    border-bottom: 2px solid #3a6a8a;
-    padding-bottom: 0.5em;
-    margin-top: 0;
-    margin-bottom: 1em;
-    font-size: 1.5em;
-    color: #2c3e50;
-  }
-  .pub-item {
-    margin: 1.2em 0;
-    padding: 1em;
-    border-left: 3px solid #3a6a8a;
-    background-color: rgba(250,250,250,0.9);
-    border-radius: 4px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  .pub-item:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
-  .scholar-link {
-    margin-bottom: 1.5em;
-    font-size: 0.95em;
-    padding: 1em;
-    background-color: rgba(250,250,250,0.9);
-    border-radius: 4px;
-    border-left: 3px solid #3a6a8a;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-  }
-  .scholar-link a {
-    font-weight: 600;
-    text-decoration: underline;
-    color: #34495e;
-    transition: color 0.2s;
-  }
-  .scholar-link a:hover {
-    color: #3a6a8a;
-  }
-  .divider {
-    margin: 1.5em 0;
-    border-top: 1px solid #ddd;
-  }
-  .year-heading {
-    margin-top: 1.5em;
-    margin-bottom: 0.8em;
-    font-size: 1.4em;
-    color: #2c3e50;
-    padding-left: 0.5em;
-    border-left: 3px solid #3a6a8a;
-  }
-  body {
-    background-color: #f0f8ff;
-    background-attachment: fixed;
-  }
-</style>
 
 <div class="publications-container">
   {% if site.author.googlescholar %}
@@ -83,12 +14,12 @@ author_profile: true
   {% endif %}
 
   <h2 class="section-heading">Articles and Patents</h2>
-    
+
   {% include base_path %}
-  
+
   {% assign publications_by_year = site.publications | group_by_exp: "post", "post.date | date: '%Y'" %}
   {% assign sorted_years = publications_by_year | sort: "name" | reverse %}
-  
+
   {% for year_group in sorted_years %}
     <h3 class="year-heading">{{ year_group.name }}</h3>
     {% for post in year_group.items %}
