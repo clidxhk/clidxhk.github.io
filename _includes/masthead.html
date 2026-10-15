@@ -13,11 +13,22 @@
               {% else %}
               {% assign domain = base_path %}
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">
+              {% if link.title_zh %}
+                <span class="lang-en">{{ link.title }}</span><span class="lang-zh">{{ link.title_zh }}</span>
+              {% else %}
+                {{ link.title }}
+              {% endif %}
+            </a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <!-- Language toggle: kept outside #site-nav so the greedy-nav script
+           (which toggles a "hidden" class on all its buttons) cannot hide it -->
+      <button type="button" class="lang-toggle" onclick="__toggleLang()" aria-label="切换语言 / Switch language" title="切换语言 / Switch language">
+        <span class="lang-en">中</span><span class="lang-zh">EN</span>
+      </button>
     </div>
   </div>
 </div>

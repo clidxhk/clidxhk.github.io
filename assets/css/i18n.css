@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Bilingual (EN / 中文) display toggling
+   Both languages are rendered by Jekyll; the active one is chosen by the
+   data-lang attribute set on <html> before first paint (see _layouts/default.html).
+   ========================================================================== */
+
+html[data-lang="zh"] .lang-en { display: none !important; }
+html:not([data-lang="zh"]) .lang-zh { display: none !important; }
+
+/* CJK-aware font stack while Chinese is active */
+html[data-lang="zh"] body {
+  font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto",
+    "Segoe UI", "Helvetica Neue", "Lucida Grande", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", Arial, sans-serif;
+}
+
+/* Reserve room on the right of the greedy nav so links never slide under
+   the language toggle or the hamburger/more button */
+.greedy-nav {
+  padding-right: 6.5rem;
+}
+
+/* Language toggle button in the masthead.
+   right offset keeps it clear of the hamburger/greedy toggle button at every width */
+.masthead .lang-toggle {
+  position: absolute;
+  top: 50%;
+  right: 5rem;
+  transform: translateY(-50%);
+  z-index: 110;
+  height: auto;
+  padding: 0.2rem 0.7rem;
+  border: 1px solid #a7b0b8;
+  border-radius: 999px;
+  background: transparent;
+  color: #4c4c4c;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.masthead .lang-toggle:hover,
+.masthead .lang-toggle:focus {
+  border-color: #3a6a8a;
+  color: #3a6a8a;
+  background: rgba(58, 106, 138, 0.08);
+  outline: none;
+}
+
+@media print {
+  .lang-toggle { display: none !important; }
+}

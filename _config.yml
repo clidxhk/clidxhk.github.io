@@ -9,6 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 title                    : "Chong Li"
+title_zh                 : "李冲"
 title_separator          : "-"
 name                     : &name "Chong Li (李冲)"
 description              : &description "Personal website of Chong Li (李冲), PhD student in Chemistry at HKUST researching photochemistry, AIE photosensitizers and biomedical imaging"
@@ -25,8 +26,11 @@ author:
   name             : "Chong Li (李冲)"
   pronouns         : # example: "she/her"  
   bio              : "PhD in Chemistry"
+  bio_zh           : "化学博士在读"
   location         : "Hong Kong"
+  location_zh      : "香港"
   employer         : "The Hong Kong University<br>of Science and Technology"
+  employer_zh      : "香港科技大学"
   uri              : # URL
   email            : "clidx@connect.ust.hk" 
 

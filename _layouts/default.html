@@ -5,8 +5,53 @@ layout: compress
 {% include base_path %}
 
 <!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"
+      data-title-en="{{ page.title | strip_newlines | strip_html | escape }}"
+      data-title-zh="{{ page.title_zh | default: page.title | strip_newlines | strip_html | escape }}"
+      data-site-title-en="{{ site.title | escape }}"
+      data-site-title-zh="{{ site.title_zh | default: site.title | escape }}">
   <head>
+    <script>
+      (function () {
+        var doc = document.documentElement;
+        var baseTitle = null;
+        var fallbackLang = "{{ site.locale | slice: 0,2 }}";
+        function detect() {
+          var saved = null;
+          try { saved = localStorage.getItem("site-lang"); } catch (e) {}
+          if (saved === "en" || saved === "zh") { return saved; }
+          return ((navigator.language || "en").toLowerCase().indexOf("zh") === 0) ? "zh" : fallbackLang;
+        }
+        function applyTitle(lang) {
+          if (!baseTitle) {
+            if (!document.title) { return; }
+            baseTitle = document.title;
+          }
+          if (lang !== "zh") { document.title = baseTitle; return; }
+          var t = baseTitle;
+          var pageEn = doc.getAttribute("data-title-en");
+          var pageZh = doc.getAttribute("data-title-zh");
+          var siteEn = doc.getAttribute("data-site-title-en");
+          var siteZh = doc.getAttribute("data-site-title-zh");
+          if (pageZh && pageEn && t.indexOf(pageEn) !== -1) { t = t.split(pageEn).join(pageZh); }
+          if (siteZh && siteEn && t.indexOf(siteEn) !== -1) { t = t.split(siteEn).join(siteZh); }
+          document.title = t;
+        }
+        window.__setLang = function (lang) {
+          doc.setAttribute("data-lang", lang);
+          doc.setAttribute("lang", lang === "zh" ? "zh-CN" : fallbackLang);
+          try { localStorage.setItem("site-lang", lang); } catch (e) {}
+          applyTitle(lang);
+        };
+        window.__toggleLang = function () {
+          window.__setLang(doc.getAttribute("data-lang") === "zh" ? "en" : "zh");
+        };
+        window.__setLang(detect());
+        document.addEventListener("DOMContentLoaded", function () {
+          applyTitle(doc.getAttribute("data-lang"));
+        });
+      })();
+    </script>
     {% include head.html %}
     {% include head/custom.html %}
   </head>

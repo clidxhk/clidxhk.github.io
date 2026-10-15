@@ -1,33 +1,39 @@
 # main links links
 main:
   - title: "Research"
+    title_zh: "研究"
     url: /publications/
     icon: "fas fa-file-alt"
-    
+
   - title: "Prizes"
-    url: /prizes/    
+    title_zh: "奖项"
+    url: /prizes/
     icon: "fas fa-chalkboard-teacher"
 
   # - title: "Talk"
-  #   url: /talks/    
+  #   url: /talks/
   #   icon: "fas fa-chalkboard-teacher"
 
   - title: "Teaching"
-    url: /teaching/    
+    title_zh: "教学"
+    url: /teaching/
     icon: "fas fa-graduation-cap"
-    
+
   - title: "Portfolio"
+    title_zh: "作品"
     url: /portfolio/
     icon: "fas fa-project-diagram"
-        
+
   - title: "Blog"
+    title_zh: "博客"
     url: /year-archive/
     icon: "fas fa-pen-fancy"
-    
+
   - title: "CV"
+    title_zh: "简历"
     url: /cv/
     icon: "fas fa-id-card"
-    
+
   # - title: "Resources"
   #   url: /markdown/
   #   icon: "fas fa-book"

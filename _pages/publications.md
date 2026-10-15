@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+title_zh: "学术论文"
 permalink: /publications/
 author_profile: true
 academic_style: true
@@ -9,11 +10,12 @@ academic_style: true
 <div class="publications-container">
   {% if site.author.googlescholar %}
     <div class="scholar-link">
-      You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.
+      <span class="lang-en">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</span>
+      <span class="lang-zh">你也可以在<a href="{{site.author.googlescholar}}">我的 Google Scholar 主页</a>上查看我的文章。</span>
     </div>
   {% endif %}
 
-  <h2 class="section-heading">Articles and Patents</h2>
+  <h2 class="section-heading"><span class="lang-en">Articles and Patents</span><span class="lang-zh">论文与专利</span></h2>
 
   {% include base_path %}
 

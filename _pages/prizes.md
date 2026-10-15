@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Prizes"
+title_zh: "奖项"
 permalink: /prizes/
 author_profile: true
 academic_style: true
@@ -59,7 +60,7 @@ academic_style: true
 </style>
 
 <div class="prizes-container">
-  <h2 class="section-heading">Honors & Awards</h2>
+  <h2 class="section-heading"><span class="lang-en">Honors &amp; Awards</span><span class="lang-zh">荣誉与奖励</span></h2>
     
   {% include base_path %}
   
