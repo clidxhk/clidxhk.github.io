@@ -95,20 +95,6 @@ redirect_from:
   </div>
 </section>
 
-<section class="cv-section" aria-labelledby="cv-software">
-  <p class="cv-eyebrow">Tools</p>
-  <h2 class="cv-heading" id="cv-software">Software</h2>
-  <div class="cv-card">
-    <span class="cv-icon"><i class="fas fa-calculator" aria-hidden="true"></i></span>
-    <h3>Solvent Fraction Convertor</h3>
-    <p>A web tool for interconverting the mole, volume and mass fractions of solvent mixtures.</p>
-    <div class="cv-buttons">
-      <a class="cv-button cv-button--primary" href="https://clidx-solvent-fraction-convertor.hf.space">Hugging Face <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
-      <a class="cv-button cv-button--secondary" href="https://modelscope.cn/studios/SUSTechCN/Solvent_Fraction_Convertor/summary">ModelScope 魔搭</a>
-    </div>
-  </div>
-</section>
-
 <section class="cv-section" aria-labelledby="cv-prizes">
   <p class="cv-eyebrow">Recognition</p>
   <h2 class="cv-heading" id="cv-prizes">Prizes</h2>
